@@ -1,19 +1,35 @@
 Employee
+-First Name
+-Last Name
+-Employee ID ?
+-Department
+
 -----------
-Job Completed
-Completion Time
-Employee Name
-Department
-Sick
-Vacation
-Explanation
+Job Completed / worked on
+-Project/task Name 
+-Start Date (Projects only)?
+
+Time Spent working on task/project
+-hh:mm:ss
+
+Sick/Vacation ?
+
+Task Description
+-Short, one sentence 
 
 Generated
 -------------
 Current Date
+-See above format on Completion Time
+
 Total Time
+-MM dd hh:mm:ss
+
 Overtime
+-hh:mm:ss
+
 Pay Period
+
 
 Supervisor
 -----------
