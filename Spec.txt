@@ -1,0 +1,21 @@
+Employee
+-----------
+Job Completed
+Completion Time
+Employee Name
+Department
+Sick
+Vacation
+Explanation
+
+Generated
+-------------
+Current Date
+Total Time
+Overtime
+Pay Period
+
+Supervisor
+-----------
+Supervisor Verification 
+Payroll Account
