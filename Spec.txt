@@ -1,4 +1,4 @@
-GROUP 2
+	GROUP 2
 
 Employee Fills all this out:
 ============================
