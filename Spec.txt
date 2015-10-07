@@ -1,4 +1,7 @@
 	GROUP 2
+Description:
+============
+A program that auto-creates a timesheet for an employee that checks the hours worked in a week to calculate overtime.
 
 Employee Fills all this out:
 ============================
@@ -15,9 +18,12 @@ Employee Fills all this out:
 -Task Description
 
 Generated:
+==========
 -Entry Time & date (prevents future entries)
 -Total time working in the day
 -Total time throughout week
+	Sick & Vacation:
+-8 hours paid auto-filled
 
 To be filled out after printed on paper:
 ========================================
