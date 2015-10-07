@@ -9,19 +9,21 @@ Employee Fills all this out:
 -Employee ID ?
 -Department
 -Date (MM/dd/yyyy)
--Sick/Vacation/Regular day
+-Sick/Vacation/Regular day		(Employee chooses day type)
 	Regular:
--Start Time
--End Time
--Lunch break start time
--Lunch break end time
+-Start Time 1
+-End Time 1
+-Start Time 2
+-End Time 2
+-Start Time 3
+-End Time 3
 -Task Description
 
 Generated:
 ==========
 -Entry Time & date (prevents future entries)
 -Total time working in the day
--Total time throughout week
+-Total time throughout week(s)
 	Sick & Vacation:
 -8 hours paid auto-filled
 
