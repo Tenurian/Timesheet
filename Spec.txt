@@ -1,37 +1,22 @@
-Employee
+Employee Fills all this out:
+============================
 -First Name
 -Last Name
 -Employee ID ?
 -Department
+-Start Time
+-End Time
+-Lunch break start time
+-Lunch break end time
+-Task Description
 
------------
-Job Completed / worked on
--Project/task Name 
--Start Date (Projects only)?
+Generated:
+-Total time working in the day
+-Total time throughout week
 
-Time Spent working on task/project
--hh:mm:ss
-
-Sick/Vacation ?
-
-Task Description
--Short, one sentence 
-
-Generated
--------------
-Current Date
--See above format on Completion Time
-
-Total Time
--MM dd hh:mm:ss
-
-Overtime
--hh:mm:ss
-
-Pay Period
-
-
-Supervisor
------------
-Supervisor Verification 
-Payroll Account
+To be filled out after printed:
+===============================
+-Employee Signature 
+	-Date Signed
+-Supervisor Signature
+	-Date Signed
