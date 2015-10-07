@@ -14,8 +14,8 @@ Generated:
 -Total time working in the day
 -Total time throughout week
 
-To be filled out after printed:
-===============================
+To be filled out after printed on paper:
+========================================
 -Employee Signature 
 	-Date Signed
 -Supervisor Signature
