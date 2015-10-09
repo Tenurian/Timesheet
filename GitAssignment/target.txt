@@ -5,8 +5,13 @@
 
 Line 1, Nathan Smith
 Line 2
+<<<<<<< HEAD
 Line 3
 Line 4, Joseph Wunz
+=======
+Line 3 Domingos Fernandes
+Line 4
+>>>>>>> cd29ae053995e68d4f62535370698fd7aa3e49b0
 Line 5
 Line 6
 Line 7
