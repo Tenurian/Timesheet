@@ -7,7 +7,7 @@ Line 1, Nathan Smith
 Line 2, Thomas Feuerborn
 Line 3 Domingos Fernandes
 Line 4, Joseph Wunz
-Line 11 Meow
+Line 11
 Line 12
 Line 13
 Line 14
