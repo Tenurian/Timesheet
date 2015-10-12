@@ -1,0 +1,9 @@
+This document contains notes from our group discussions and in class examples.
+
+In-class example
+•Extract overtime to method
+•Write a unit test to test the calculate overtime method
+
+Visual Studio Shortcuts
+•CTRL+K+U to comment out a line
+•F12 to jump to declaration
