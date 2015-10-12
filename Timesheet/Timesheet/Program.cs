@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Timesheet
 {
-    class Program
+    class TimesheetGenerator
     {
         public readonly int NUMBER_OF_WEEKS;
         public readonly int MAX_HOURS_PER_WEEK;
@@ -17,11 +17,11 @@ namespace Timesheet
 
         static void Main(string[] args)
         {
-            Program p = new Program();
+            TimesheetGenerator p = new TimesheetGenerator();
             p.start();
         }
 
-        public Program()
+        public TimesheetGenerator()
         {
             name = "";
             total = 0;
@@ -30,7 +30,7 @@ namespace Timesheet
             MAX_HOURS_PER_WEEK = 40;
         }
 
-        public Program(int Weeks)
+        public TimesheetGenerator(int Weeks)
         {
             name = "";
             total = 0;
@@ -39,7 +39,7 @@ namespace Timesheet
             MAX_HOURS_PER_WEEK = 40;
         }
 
-        public Program(int Weeks, int hours)
+        public TimesheetGenerator(int Weeks, int hours)
         {
             name = "";
             total = 0;
@@ -58,7 +58,9 @@ namespace Timesheet
             Console.WriteLine("Total hours worked: {0}", total);
 
             overtime = CalculateOvertime(total);
-            Console.WriteLine("You had {0} hours of overtime.", overtime);
+            Console.WriteLine("\n\nYou had {0} hours of overtime.", overtime);
+
+            Console.ReadLine();
 
         }
 
@@ -69,7 +71,7 @@ namespace Timesheet
             {
                 foreach (Day day in Enum.GetValues(typeof(Day)))
                 {
-                choice:
+                MakeChoice:
                     int choice = 0;
                     Console.WriteLine("What type of day was {1} of week {0}?\n1) Regular\n2) Sick\n3) Vacation", week, day);
                     String input = Console.ReadLine();
@@ -81,20 +83,18 @@ namespace Timesheet
                     {
                         try
                         {
-                            choice = Int32.Parse(Console.ReadLine());
+                            choice = Int32.Parse(input);
                         }
-                        catch(Exception e)
+                        catch (Exception e)
                         {
-                            if (e.Source != null)
-                            {
-                                Console.WriteLine("Exception Source: {0}", e.Source);
-                            }
+                            //Console.WriteLine("Bug");
+                            choice = 0;
                         }
                         finally
                         {
                             choice = 0;
                         }
-                    } 
+                    }
 
                     switch (choice)
                     {
@@ -112,7 +112,7 @@ namespace Timesheet
                             break;
                         default:
                             Console.WriteLine("Invalid day type, try again.");
-                            goto choice;
+                            goto MakeChoice;
                     }
 
 
@@ -123,7 +123,7 @@ namespace Timesheet
 
         private int CalculateOvertime(int worked)
         {
-            if(worked > (NUMBER_OF_WEEKS * MAX_HOURS_PER_WEEK))
+            if (worked > (NUMBER_OF_WEEKS * MAX_HOURS_PER_WEEK))
             {
                 return worked - (NUMBER_OF_WEEKS * MAX_HOURS_PER_WEEK);
             }
