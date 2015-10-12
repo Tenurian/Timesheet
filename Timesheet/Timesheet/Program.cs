@@ -8,13 +8,12 @@ namespace Timesheet
 {
     class Program
     {
-        public static int N_WEEKS = 2;
-        public static int WEEK_HOURS = 40;
+        public readonly int NUMBER_OF_WEEKS;
+        public readonly int MAX_HOURS_PER_WEEK;
         private enum DayType { Regular, Sick, Vacation }
         private enum Day { Monday, Tuesday, Wednesday, Thursday, Friday, Saturday, Sunday }
         private String name;
         private int total, overtime;
-        //private int weekNumber = 1;
 
         static void Main(string[] args)
         {
@@ -27,6 +26,26 @@ namespace Timesheet
             name = "";
             total = 0;
             overtime = 0;
+            NUMBER_OF_WEEKS = 2;
+            MAX_HOURS_PER_WEEK = 40;
+        }
+
+        public Program(int Weeks)
+        {
+            name = "";
+            total = 0;
+            overtime = 0;
+            NUMBER_OF_WEEKS = Weeks;
+            MAX_HOURS_PER_WEEK = 40;
+        }
+
+        public Program(int Weeks, int hours)
+        {
+            name = "";
+            total = 0;
+            overtime = 0;
+            NUMBER_OF_WEEKS = Weeks;
+            MAX_HOURS_PER_WEEK = hours;
         }
 
         private void start()
@@ -46,7 +65,7 @@ namespace Timesheet
         private int CalculateTotalTimeWorked()
         {
             int timeWorked = 0;
-            for (int week = 1; week <= N_WEEKS; week++)
+            for (int week = 1; week <= NUMBER_OF_WEEKS; week++)
             {
                 foreach (Day day in Enum.GetValues(typeof(Day)))
                 {
@@ -81,9 +100,9 @@ namespace Timesheet
 
         private int CalculateOvertime(int worked)
         {
-            if(worked > (N_WEEKS * WEEK_HOURS))
+            if(worked > (NUMBER_OF_WEEKS * MAX_HOURS_PER_WEEK))
             {
-                return worked - (N_WEEKS * WEEK_HOURS);
+                return worked - (NUMBER_OF_WEEKS * MAX_HOURS_PER_WEEK);
             }
             else
             {
