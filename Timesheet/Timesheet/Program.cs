@@ -100,11 +100,17 @@ namespace Timesheet
                             break;
                         case 2:
                             Console.WriteLine("SICK DAY : 8 Hr");
-                            timeWorked += 8;
+                            if (timeWorked < (NUMBER_OF_WEEKS * MAX_HOURS_PER_WEEK))
+                            {
+                                timeWorked += 8;
+                            }
                             break;
                         case 3:
                             Console.WriteLine("PAID VACATION : 8 Hr");
-                            timeWorked += 8;
+                            if (timeWorked < (NUMBER_OF_WEEKS * MAX_HOURS_PER_WEEK))
+                            {
+                                timeWorked += 8;
+                            }
                             break;
                         default:
                             Console.WriteLine("Invalid day type, try again.");
