@@ -70,8 +70,31 @@ namespace Timesheet
                 foreach (Day day in Enum.GetValues(typeof(Day)))
                 {
                 choice:
+                    int choice = 0;
                     Console.WriteLine("What type of day was {1} of week {0}?\n1) Regular\n2) Sick\n3) Vacation", week, day);
-                    int choice = Int32.Parse(Console.ReadLine());
+                    String input = Console.ReadLine();
+                    if (input.ToLower().Equals("exit"))
+                    {
+                        Environment.Exit(0);
+                    }
+                    else
+                    {
+                        try
+                        {
+                            choice = Int32.Parse(Console.ReadLine());
+                        }
+                        catch(Exception e)
+                        {
+                            if (e.Source != null)
+                            {
+                                Console.WriteLine("Exception Source: {0}", e.Source);
+                            }
+                        }
+                        finally
+                        {
+                            choice = 0;
+                        }
+                    } 
 
                     switch (choice)
                     {
