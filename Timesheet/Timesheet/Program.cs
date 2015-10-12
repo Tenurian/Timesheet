@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Timesheet
 {
-    class Program
+    class TimesheetGenerator
     {
         public readonly int NUMBER_OF_WEEKS;
         public readonly int MAX_HOURS_PER_WEEK;
@@ -17,11 +17,11 @@ namespace Timesheet
 
         static void Main(string[] args)
         {
-            Program p = new Program();
+            TimesheetGenerator p = new TimesheetGenerator();
             p.start();
         }
 
-        public Program()
+        public TimesheetGenerator()
         {
             name = "";
             total = 0;
@@ -30,7 +30,7 @@ namespace Timesheet
             MAX_HOURS_PER_WEEK = 40;
         }
 
-        public Program(int Weeks)
+        public TimesheetGenerator(int Weeks)
         {
             name = "";
             total = 0;
@@ -39,7 +39,7 @@ namespace Timesheet
             MAX_HOURS_PER_WEEK = 40;
         }
 
-        public Program(int Weeks, int hours)
+        public TimesheetGenerator(int Weeks, int hours)
         {
             name = "";
             total = 0;
