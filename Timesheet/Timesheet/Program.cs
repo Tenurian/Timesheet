@@ -90,10 +90,6 @@ namespace Timesheet
                             //Console.WriteLine("Bug");
                             choice = 0;
                         }
-                        finally
-                        {
-                            choice = 0;
-                        }
                     }
 
                     switch (choice)
