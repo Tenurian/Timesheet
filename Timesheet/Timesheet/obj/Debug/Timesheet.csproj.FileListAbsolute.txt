@@ -4,3 +4,9 @@ C:\Code\Timesheet\Timesheet\Timesheet\bin\Debug\Timesheet.pdb
 C:\Code\Timesheet\Timesheet\Timesheet\obj\Debug\Timesheet.csprojResolveAssemblyReference.cache
 C:\Code\Timesheet\Timesheet\Timesheet\obj\Debug\Timesheet.exe
 C:\Code\Timesheet\Timesheet\Timesheet\obj\Debug\Timesheet.pdb
+C:\Users\Domingos Fernandes\Desktop\Timesheet\Timesheet\Timesheet\Timesheet\bin\Debug\Timesheet.exe.config
+C:\Users\Domingos Fernandes\Desktop\Timesheet\Timesheet\Timesheet\Timesheet\obj\Debug\Timesheet.exe
+C:\Users\Domingos Fernandes\Desktop\Timesheet\Timesheet\Timesheet\Timesheet\obj\Debug\Timesheet.pdb
+C:\Users\Domingos Fernandes\Desktop\Timesheet\Timesheet\Timesheet\Timesheet\bin\Debug\Timesheet.exe
+C:\Users\Domingos Fernandes\Desktop\Timesheet\Timesheet\Timesheet\Timesheet\bin\Debug\Timesheet.pdb
+C:\Users\Domingos Fernandes\Desktop\Timesheet\Timesheet\Timesheet\Timesheet\obj\Debug\Timesheet.csprojResolveAssemblyReference.cache
