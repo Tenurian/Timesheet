@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Timesheet
 {
-    class TimesheetGenerator
+    public class TimesheetGenerator
     {
         public readonly int NUMBER_OF_WEEKS;
         public readonly int MAX_HOURS_PER_WEEK;
@@ -48,7 +48,7 @@ namespace Timesheet
             MAX_HOURS_PER_WEEK = hours;
         }
 
-        private void start()
+        public void start()
         {
             Console.WriteLine("Please Enter your name: ");
             name = Console.ReadLine();
@@ -64,7 +64,7 @@ namespace Timesheet
 
         }
 
-        private int CalculateTotalTimeWorked()
+        public int CalculateTotalTimeWorked()
         {
             int timeWorked = 0;
             for (int week = 1; week <= NUMBER_OF_WEEKS; week++)
@@ -123,7 +123,7 @@ namespace Timesheet
             return timeWorked;
         }
 
-        private int CalculateOvertime(int worked)
+        public int CalculateOvertime(int worked)
         {
             if (worked > (NUMBER_OF_WEEKS * MAX_HOURS_PER_WEEK))
             {
