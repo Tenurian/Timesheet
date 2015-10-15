@@ -87,7 +87,8 @@ namespace Timesheet
                         }
                         catch (Exception e)
                         {
-                            //Console.WriteLine("Bug");
+                            Console.WriteLine(e);
+                            Console.WriteLine("Sorry try again");
                             choice = 0;
                         }
                     }
