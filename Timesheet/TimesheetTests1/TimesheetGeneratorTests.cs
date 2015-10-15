@@ -17,7 +17,7 @@ namespace Timesheet.Tests
             int hoursWorked = 35;
             int expected = 0;
             TimesheetGenerator tg = new TimesheetGenerator();
-           int returnedValue = tg.CalculateOvertime(hoursWorked);
+            int returnedValue = tg.CalculateOvertime(hoursWorked);
             Assert.AreEqual(returnedValue, expected);
         }
         [TestMethod()]
