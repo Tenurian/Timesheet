@@ -9,6 +9,7 @@ namespace Timesheet
 {
     public class TimesheetGenerator
     {
+        //Creating new branch
         public readonly int NUMBER_OF_WEEKS;
         public readonly int MAX_HOURS_PER_WEEK;
         private enum DayType { Regular, Sick, Vacation }
