@@ -133,12 +133,14 @@ namespace Timesheet
 
         public bool ValidateInput(int userInput)
         {
-            Boolean inputValidated = false;
-            if(userInput > 24 || userInput < 0)
-            {
-                inputValidated = true;
-            }
-            return inputValidated;
+            //SHOULD return TRUE if their input is between 0 and 24, and FALSE if input is < 0 or > 24
+            //Boolean inputValidated = true;
+            //if(userInput > 24 || userInput < 0)
+            //{
+            //    inputValidated = false;
+            //}
+            //return inputValidated;
+            return (userInput <= 24 && userInput >= 0); //can be simplified to one line. :)
         }
     }
 }
