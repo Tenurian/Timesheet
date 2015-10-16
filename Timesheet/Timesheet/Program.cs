@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Diagnostics.CodeAnalysis;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -15,6 +16,7 @@ namespace Timesheet
         private String name;
         private int total, overtime;
 
+        [ExcludeFromCodeCoverage]
         static void Main(string[] args)
         {
             TimesheetGenerator p = new TimesheetGenerator();
@@ -48,6 +50,7 @@ namespace Timesheet
             MAX_HOURS_PER_WEEK = hours;
         }
 
+        [ExcludeFromCodeCoverage]
         public void start()
         {
             Console.WriteLine("Please Enter your name: ");
@@ -64,6 +67,7 @@ namespace Timesheet
 
         }
 
+        [ExcludeFromCodeCoverage]
         public int CalculateTotalTimeWorked()
         {
             int timeWorked = 0;
@@ -122,6 +126,11 @@ namespace Timesheet
                 }
             }
             return timeWorked;
+        }
+
+        public int GetTotal()
+        {
+            return total;
         }
 
         public int CalculateOvertime(int worked)

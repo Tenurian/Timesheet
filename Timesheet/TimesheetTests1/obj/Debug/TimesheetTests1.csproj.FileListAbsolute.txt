@@ -1,0 +1,8 @@
+C:\Code\Timesheet\Timesheet\TimesheetTests1\bin\Debug\TimesheetTests1.dll
+C:\Code\Timesheet\Timesheet\TimesheetTests1\bin\Debug\TimesheetTests1.pdb
+C:\Code\Timesheet\Timesheet\TimesheetTests1\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll
+C:\Code\Timesheet\Timesheet\TimesheetTests1\bin\Debug\Timesheet.exe
+C:\Code\Timesheet\Timesheet\TimesheetTests1\bin\Debug\Timesheet.pdb
+C:\Code\Timesheet\Timesheet\TimesheetTests1\obj\Debug\TimesheetTests1.csprojResolveAssemblyReference.cache
+C:\Code\Timesheet\Timesheet\TimesheetTests1\obj\Debug\TimesheetTests1.dll
+C:\Code\Timesheet\Timesheet\TimesheetTests1\obj\Debug\TimesheetTests1.pdb
