@@ -92,14 +92,27 @@ namespace Timesheet
                     int number;
                     if (Int32.TryParse(temp, out number))
                     {
-                        data[((week * 7) + (d - 1))] = number;
+                        if (ValidateInput(number))
+                        {
+                            data[((week * 7) + (d - 1))] = number;
+                        }
+                        else
+                        {
+                            Console.WriteLine("Please enter the number of hours you worked.");
+                            goto Input;
+                        }
+                    }
+                    else if (temp.ToLower().Equals("exit") || temp.ToLower().Equals("stop"))
+                    {
+                        Environment.Exit(0);
                     }
                     else
                     {
                         Console.WriteLine("Please enter the number of hours you worked.");
                         goto Input;
                     }
-                    Console.WriteLine("{0}", ((week * 7) + d));
+                    //Console.WriteLine("{0}", ((week * 7) + d));
+                    Console.WriteLine("\n");
                 }
             }
             return data;
@@ -131,16 +144,15 @@ namespace Timesheet
             }
         }
 
-        public bool ValidateInput(int userInput)
+        public bool ValidateInput(int userInput)/*SHOULD return TRUE if their input is between 0 and 24, and FALSE if input is < 0 or > 24*/
         {
-            //SHOULD return TRUE if their input is between 0 and 24, and FALSE if input is < 0 or > 24
             //Boolean inputValidated = true;
             //if(userInput > 24 || userInput < 0)
-            //{
+            //{                                             //all of this
             //    inputValidated = false;
             //}
             //return inputValidated;
-            return (userInput <= 24 && userInput >= 0); //can be simplified to one line. :)
+            return (userInput <= 24 && userInput >= 0);     //can be simplified to one line. :)
         }
     }
 }
