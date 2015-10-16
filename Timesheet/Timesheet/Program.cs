@@ -135,5 +135,15 @@ namespace Timesheet
                 return 0;
             }
         }
+
+        public bool ValidateInput(int userInput)
+        {
+            Boolean inputValidated = false;
+            if(userInput > 24 || userInput < 0)
+            {
+                inputValidated = true;
+            }
+            return inputValidated;
+        }
     }
 }
