@@ -16,8 +16,9 @@ namespace Timesheet
         private enum Day { Monday, Tuesday, Wednesday, Thursday, Friday, Saturday, Sunday }
         private String name;
         private int total, overtime;
+        private int[] log;
 
-        [ExcludeFromCodeCoverage]
+        //[ExcludeFromCodeCoverage]
         static void Main(string[] args)
         {
             TimesheetGenerator p = new TimesheetGenerator();
@@ -31,6 +32,7 @@ namespace Timesheet
             overtime = 0;
             NUMBER_OF_WEEKS = 2;
             MAX_HOURS_PER_WEEK = 40;
+            log = new int[NUMBER_OF_WEEKS * 7];
         }
 
         public TimesheetGenerator(int Weeks)
@@ -40,6 +42,7 @@ namespace Timesheet
             overtime = 0;
             NUMBER_OF_WEEKS = Weeks;
             MAX_HOURS_PER_WEEK = 40;
+            log = new int[NUMBER_OF_WEEKS * 7];
         }
 
         public TimesheetGenerator(int Weeks, int hours)
@@ -49,84 +52,66 @@ namespace Timesheet
             overtime = 0;
             NUMBER_OF_WEEKS = Weeks;
             MAX_HOURS_PER_WEEK = hours;
+            log = new int[NUMBER_OF_WEEKS * 7];
         }
 
-        [ExcludeFromCodeCoverage]
+        //[ExcludeFromCodeCoverage]
         public void start()
         {
             Console.WriteLine("Please Enter your name: ");
             name = Console.ReadLine();
             Console.WriteLine("Welcome, {0}", name);
 
-            total = CalculateTotalTimeWorked();
+            log = MainLoop();
+            total = CalculateTotalTimeWorked(log);
             Console.WriteLine("Total hours worked: {0}", total);
 
             overtime = CalculateOvertime(total);
             Console.WriteLine("\n\nYou had {0} hours of overtime.", overtime);
 
             Console.ReadLine();
-
         }
 
-        [ExcludeFromCodeCoverage]
-        public int CalculateTotalTimeWorked()
+        //[ExcludeFromCodeCoverage]
+        public int[] MainLoop()
         {
-            int timeWorked = 0;
-            for (int week = 1; week <= NUMBER_OF_WEEKS; week++)
+            DayOfWeek[] days = new[]
             {
-                foreach (Day day in Enum.GetValues(typeof(Day)))
+                DayOfWeek.Monday, DayOfWeek.Tuesday, DayOfWeek.Wednesday, DayOfWeek.Thursday, DayOfWeek.Friday,
+                DayOfWeek.Saturday, DayOfWeek.Sunday
+            };
+            String[] numSuffixes = new[] { "st", "nd", "rd", "th" };
+            int[] data = new int[NUMBER_OF_WEEKS * 7];
+            for (int week = 0; week < NUMBER_OF_WEEKS; week++)
+            {
+                for (int d = 1; d <= 7; d++)
                 {
-                MakeChoice:
-                    int choice = 0;
-                    Console.WriteLine("What type of day was {1} of week {0}?\n1) Regular\n2) Sick\n3) Vacation", week, day);
-                    String input = Console.ReadLine();
-                    if (input.ToLower().Equals("exit"))
+                    Console.WriteLine("How many hours did you work on the {0}{1} {2}?", (week + 1), numSuffixes[week], days[d - 1], week);
+                Input:
+                    String temp = Console.ReadLine();
+                    int number;
+                    if (Int32.TryParse(temp, out number))
                     {
-                        Environment.Exit(0);
+                        data[((week * 7) + (d - 1))] = number;
                     }
                     else
                     {
-                        try
-                        {
-                            choice = Int32.Parse(input);
-                        }
-                        catch (Exception e)
-                        {
-                            Console.WriteLine(e);
-                            Console.WriteLine("Sorry try again");
-                            choice = 0;
-                        }
+                        Console.WriteLine("Please enter the number of hours you worked.");
+                        goto Input;
                     }
-
-                    switch (choice)
-                    {
-                        case 1:
-                            Console.WriteLine("How many hours did you work on {1} of week {0}?", week, day);
-                            timeWorked += Int32.Parse(Console.ReadLine());
-                            break;
-                        case 2:
-                            Console.WriteLine("SICK DAY : 8 Hr");
-                            if (timeWorked < (NUMBER_OF_WEEKS * MAX_HOURS_PER_WEEK))
-                            {
-                                timeWorked += 8;
-                            }
-                            break;
-                        case 3:
-                            Console.WriteLine("PAID VACATION : 8 Hr");
-                            if (timeWorked < (NUMBER_OF_WEEKS * MAX_HOURS_PER_WEEK))
-                            {
-                                timeWorked += 8;
-                            }
-                            break;
-                        default:
-                            Console.WriteLine("Invalid day type, try again.");
-                            goto MakeChoice;
-                    }
-
-
+                    Console.WriteLine("{0}", ((week * 7) + d));
                 }
             }
-            return timeWorked;
+            return data;
+        }
+
+        public int CalculateTotalTimeWorked(int[] w)
+        {
+            foreach (int h in w)
+            {
+                total += h;
+            }
+            return total;
         }
 
         public int GetTotal()
