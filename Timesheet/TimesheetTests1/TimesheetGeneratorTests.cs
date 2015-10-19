@@ -12,6 +12,26 @@ namespace Timesheet.Tests
     public class TimesheetGeneratorTests
     {
         [TestMethod()]
+        public void GetTotalTest()
+        {
+            TimesheetGenerator ts = new TimesheetGenerator(1,40);
+            int expected = ts.CalculateTotalTimeWorked(new[] {40});
+            int actual = ts.GetTotal();
+            Assert.AreEqual(expected, actual);
+        }
+
+        [TestMethod()]
+        public void ValidateInputTest()
+        {
+            TimesheetGenerator ts = new TimesheetGenerator();
+            bool expected = false;
+            bool actual1 = ts.ValidateInput(80);
+            bool actual2 = ts.ValidateInput(-3);
+            Assert.AreEqual(expected,actual1);
+            Assert.AreEqual(expected,actual2);
+        }
+
+        [TestMethod()]
         public void CalculateOvertimeTestNone()
         {
             int hoursWorked = 35;
