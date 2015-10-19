@@ -1,0 +1,5 @@
+C:\Code\Timesheet\Timesheet\TimesheetController\bin\Debug\TimesheetController.dll
+C:\Code\Timesheet\Timesheet\TimesheetController\bin\Debug\TimesheetController.pdb
+C:\Code\Timesheet\Timesheet\TimesheetController\obj\Debug\TimesheetController.csprojResolveAssemblyReference.cache
+C:\Code\Timesheet\Timesheet\TimesheetController\obj\Debug\TimesheetController.dll
+C:\Code\Timesheet\Timesheet\TimesheetController\obj\Debug\TimesheetController.pdb
