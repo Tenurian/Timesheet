@@ -5,7 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 using Timesheet;
 
-namespace TimesheetController
+namespace TimesheetConsole
 {
     public class TimesheetEngine
     {

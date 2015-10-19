@@ -7,8 +7,8 @@
     <ProjectGuid>{63873FF6-505F-4A80-9670-86633875D08B}</ProjectGuid>
     <OutputType>Exe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>TimesheetController</RootNamespace>
-    <AssemblyName>TimesheetController</AssemblyName>
+    <RootNamespace>TimesheetConsole</RootNamespace>
+    <AssemblyName>TimesheetConsole</AssemblyName>
     <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
   </PropertyGroup>
