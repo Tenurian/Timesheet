@@ -11,11 +11,9 @@ C:\Users\Domingos Fernandes\Desktop\Timesheet\Timesheet\Timesheet\Timesheet\bin\
 C:\Users\Domingos Fernandes\Desktop\Timesheet\Timesheet\Timesheet\Timesheet\bin\Debug\Timesheet.pdb
 C:\Users\Domingos Fernandes\Desktop\Timesheet\Timesheet\Timesheet\Timesheet\obj\Debug\Timesheet.csprojResolveAssemblyReference.cache
 <<<<<<< HEAD
-<<<<<<< HEAD
 C:\Users\JWunz\Documents\NU\CSC160\Timesheet\Timesheet\Timesheet\Timesheet\bin\Debug\Timesheet.exe.config
 C:\Users\JWunz\Documents\NU\CSC160\Timesheet\Timesheet\Timesheet\Timesheet\obj\Debug\Timesheet.exe
 C:\Users\JWunz\Documents\NU\CSC160\Timesheet\Timesheet\Timesheet\Timesheet\obj\Debug\Timesheet.pdb
-=======
 =======
 >>>>>>> 73e7ebf485b87767134061486b05bd2da4d923b9
 C:\Users\blazi\Documents\Neumont\DotNet\Timesheet\Timesheet\Timesheet\Timesheet\bin\Debug\Timesheet.exe.config
@@ -24,7 +22,4 @@ C:\Users\blazi\Documents\Neumont\DotNet\Timesheet\Timesheet\Timesheet\Timesheet\
 C:\Users\blazi\Documents\Neumont\DotNet\Timesheet\Timesheet\Timesheet\Timesheet\bin\Debug\Timesheet.exe
 C:\Users\blazi\Documents\Neumont\DotNet\Timesheet\Timesheet\Timesheet\Timesheet\bin\Debug\Timesheet.pdb
 C:\Users\blazi\Documents\Neumont\DotNet\Timesheet\Timesheet\Timesheet\Timesheet\obj\Debug\Timesheet.csprojResolveAssemblyReference.cache
-<<<<<<< HEAD
 >>>>>>> 1bbe897b1f1793e6c099a5617c0867e1e9c1b9bc
-=======
->>>>>>> 73e7ebf485b87767134061486b05bd2da4d923b9
