@@ -148,7 +148,7 @@ namespace Timesheet
         public bool ValidateInput(int userInput)
         {
             Boolean inputValidated = false;
-            if(userInput > 24 || userInput < 0)
+            if(userInput < 24 && userInput > 0)
             {
                 inputValidated = true;
             }

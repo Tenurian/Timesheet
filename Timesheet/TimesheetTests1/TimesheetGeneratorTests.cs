@@ -80,5 +80,33 @@ namespace Timesheet.Tests
             Assert.AreEqual(expected3_3, actual3_3);
             //Assert.Fail();
         }
+
+        [TestMethod()]
+        public void ValidateInputTestValid()
+        {
+            int actual = 16;
+            TimesheetGenerator tg = new TimesheetGenerator();
+         bool returned = tg.ValidateInput(actual);
+            bool expected = true;
+            Assert.AreEqual(expected, returned);
+        }
+        [TestMethod()]
+        public void ValidateInputTestInvalid()
+        {
+            int actual = 27;
+            TimesheetGenerator tg = new TimesheetGenerator();
+            bool returned = tg.ValidateInput(actual);
+            bool expected = false;
+            Assert.AreEqual(expected, returned);
+        }
+        [TestMethod()]
+        public void ValidateInputTestNegative()
+        {
+            int actual = -17;
+            TimesheetGenerator tg = new TimesheetGenerator();
+            bool returned = tg.ValidateInput(actual);
+            bool expected = false;
+            Assert.AreEqual(expected, returned);
+        }
     }
 }
