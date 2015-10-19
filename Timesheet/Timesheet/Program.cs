@@ -7,6 +7,15 @@ using System.Threading.Tasks;
 
 namespace Timesheet
 {
+    class Gooey
+    {
+        //this is where the GUI code will be
+        public Gooey()
+        {
+            
+        }
+    }
+
     public class TimesheetGenerator
     {
         //Creating new branch
