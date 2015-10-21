@@ -6,7 +6,123 @@
         xmlns:local="clr-namespace:TimesheetView"
         mc:Ignorable="d"
         Title="MainWindow" Height="350" Width="525">
-    <Grid>
-        
-    </Grid>
+    <StackPanel x:Name="MyTimesheet">
+        <GridViewColumnHeader>hello</GridViewColumnHeader>
+        <Grid x:Name="Row_1">
+            <UniformGrid Columns="4" x:Name="Day_1">
+                <TextBox Text="Date"/>
+                <Grid>
+                    <CheckBox HorizontalAlignment="Left">R</CheckBox>
+                    <CheckBox HorizontalAlignment="Center">S</CheckBox>
+                    <CheckBox HorizontalAlignment="Right">V</CheckBox>
+                </Grid>
+                <TextBox>yo</TextBox>
+                <TextBox>yo</TextBox>
+            </UniformGrid>
+        </Grid>
+        <Grid x:Name="Row_2">
+            <UniformGrid Columns="4" x:Name="Day_2">
+                <TextBox Text="Date"/>
+                <TextBox>yo</TextBox>
+                <TextBox>yo</TextBox>
+                <TextBox>yo</TextBox>
+            </UniformGrid>
+        </Grid>
+        <Grid x:Name="Row_3">
+            <UniformGrid Columns="4" x:Name="Day_3">
+                <TextBox Text="Date"/>
+                <TextBox>yo</TextBox>
+                <TextBox>yo</TextBox>
+                <TextBox>yo</TextBox>
+            </UniformGrid>
+        </Grid>
+        <Grid x:Name="Row_4">
+            <UniformGrid Columns="4" x:Name="Day_4">
+                <TextBox Text="Date"/>
+                <TextBox>yo</TextBox>
+                <TextBox>yo</TextBox>
+                <TextBox>yo</TextBox>
+            </UniformGrid>
+        </Grid>
+        <Grid x:Name="Row_5">
+            <UniformGrid Columns="4" x:Name="Day_5">
+                <TextBox Text="Date"/>
+                <TextBox>yo</TextBox>
+                <TextBox>yo</TextBox>
+                <TextBox>yo</TextBox>
+            </UniformGrid>
+        </Grid>
+        <Grid x:Name="Row_6">
+            <UniformGrid Columns="4" x:Name="Day_6">
+                <TextBox Text="Date"/>
+                <TextBox>yo</TextBox>
+                <TextBox>yo</TextBox>
+                <TextBox>yo</TextBox>
+            </UniformGrid>
+        </Grid>
+        <Grid x:Name="Row_7">
+            <UniformGrid Columns="4" x:Name="Day_7">
+                <TextBox Text="Date"/>
+                <TextBox>yo</TextBox>
+                <TextBox>yo</TextBox>
+                <TextBox>yo</TextBox>
+            </UniformGrid>
+        </Grid>
+        <Grid x:Name="Row_8">
+            <UniformGrid Columns="4" x:Name="Day_8">
+                <TextBox Text="Date"/>
+                <TextBox>yo</TextBox>
+                <TextBox>yo</TextBox>
+                <TextBox>yo</TextBox>
+            </UniformGrid>
+        </Grid>
+        <Grid x:Name="Row_9">
+            <UniformGrid Columns="4" x:Name="Day_9">
+                <TextBox Text="Date"/>
+                <TextBox>yo</TextBox>
+                <TextBox>yo</TextBox>
+                <TextBox>yo</TextBox>
+            </UniformGrid>
+        </Grid>
+        <Grid x:Name="Row_10">
+            <UniformGrid Columns="4" x:Name="Day_10">
+                <TextBox Text="Date"/>
+                <TextBox>yo</TextBox>
+                <TextBox>yo</TextBox>
+                <TextBox>yo</TextBox>
+            </UniformGrid>
+        </Grid>
+        <Grid x:Name="Row_11">
+            <UniformGrid Columns="4" x:Name="Day_11">
+                <TextBox Text="Date"/>
+                <TextBox>yo</TextBox>
+                <TextBox>yo</TextBox>
+                <TextBox>yo</TextBox>
+            </UniformGrid>
+        </Grid>
+        <Grid x:Name="Row_12">
+            <UniformGrid Columns="4" x:Name="Day_12">
+                <TextBox Text="Date"/>
+                <TextBox>yo</TextBox>
+                <TextBox>yo</TextBox>
+                <TextBox>yo</TextBox>
+            </UniformGrid>
+        </Grid>
+        <Grid x:Name="Row_13">
+            <UniformGrid Columns="4" x:Name="Day_13">
+                <TextBox Text="Date"/>
+                <TextBox>yo</TextBox>
+                <TextBox>yo</TextBox>
+                <TextBox>yo</TextBox>
+            </UniformGrid>
+        </Grid>
+        <Grid x:Name="Row_14">
+            <UniformGrid Columns="4" x:Name="Day_14">
+                <TextBox Text="Date"/>
+                <TextBox>yo</TextBox>
+                <TextBox>yo</TextBox>
+                <TextBox>yo</TextBox>
+            </UniformGrid>
+        </Grid>
+    </StackPanel>
 </Window>
