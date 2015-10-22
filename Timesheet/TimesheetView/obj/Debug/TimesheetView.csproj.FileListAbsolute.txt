@@ -12,3 +12,17 @@ C:\Users\Domingos Fernandes\Desktop\Timesheet\github\Timesheet\Timesheet\Timeshe
 C:\Users\Domingos Fernandes\Desktop\Timesheet\github\Timesheet\Timesheet\TimesheetView\obj\Debug\TimesheetView.csproj.GenerateResource.Cache
 C:\Users\Domingos Fernandes\Desktop\Timesheet\github\Timesheet\Timesheet\TimesheetView\obj\Debug\TimesheetView.exe
 C:\Users\Domingos Fernandes\Desktop\Timesheet\github\Timesheet\Timesheet\TimesheetView\obj\Debug\TimesheetView.pdb
+C:\Users\JWunz\Documents\NU\CSC160\Timesheet\Timesheet\Timesheet\TimesheetView\bin\Debug\TimesheetView.exe.config
+C:\Users\JWunz\Documents\NU\CSC160\Timesheet\Timesheet\Timesheet\TimesheetView\bin\Debug\TimesheetView.exe
+C:\Users\JWunz\Documents\NU\CSC160\Timesheet\Timesheet\Timesheet\TimesheetView\bin\Debug\TimesheetView.pdb
+C:\Users\JWunz\Documents\NU\CSC160\Timesheet\Timesheet\Timesheet\TimesheetView\obj\Debug\TimesheetView.csprojResolveAssemblyReference.cache
+C:\Users\JWunz\Documents\NU\CSC160\Timesheet\Timesheet\Timesheet\TimesheetView\obj\Debug\MainWindow.g.cs
+C:\Users\JWunz\Documents\NU\CSC160\Timesheet\Timesheet\Timesheet\TimesheetView\obj\Debug\App.g.cs
+C:\Users\JWunz\Documents\NU\CSC160\Timesheet\Timesheet\Timesheet\TimesheetView\obj\Debug\TimesheetView_MarkupCompile.cache
+C:\Users\JWunz\Documents\NU\CSC160\Timesheet\Timesheet\Timesheet\TimesheetView\obj\Debug\TimesheetView_MarkupCompile.lref
+C:\Users\JWunz\Documents\NU\CSC160\Timesheet\Timesheet\Timesheet\TimesheetView\obj\Debug\MainWindow.baml
+C:\Users\JWunz\Documents\NU\CSC160\Timesheet\Timesheet\Timesheet\TimesheetView\obj\Debug\TimesheetView.g.resources
+C:\Users\JWunz\Documents\NU\CSC160\Timesheet\Timesheet\Timesheet\TimesheetView\obj\Debug\TimesheetView.Properties.Resources.resources
+C:\Users\JWunz\Documents\NU\CSC160\Timesheet\Timesheet\Timesheet\TimesheetView\obj\Debug\TimesheetView.csproj.GenerateResource.Cache
+C:\Users\JWunz\Documents\NU\CSC160\Timesheet\Timesheet\Timesheet\TimesheetView\obj\Debug\TimesheetView.exe
+C:\Users\JWunz\Documents\NU\CSC160\Timesheet\Timesheet\Timesheet\TimesheetView\obj\Debug\TimesheetView.pdb
