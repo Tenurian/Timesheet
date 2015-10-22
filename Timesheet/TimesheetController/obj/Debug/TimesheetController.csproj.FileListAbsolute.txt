@@ -1,7 +1,0 @@
-C:\Code\Timesheet\Timesheet\TimesheetController\bin\Debug\TimesheetController.pdb
-C:\Code\Timesheet\Timesheet\TimesheetController\obj\Debug\TimesheetController.csprojResolveAssemblyReference.cache
-C:\Code\Timesheet\Timesheet\TimesheetController\obj\Debug\TimesheetController.pdb
-C:\Code\Timesheet\Timesheet\TimesheetController\bin\Debug\TimesheetController.exe
-C:\Code\Timesheet\Timesheet\TimesheetController\bin\Debug\Timesheet.dll
-C:\Code\Timesheet\Timesheet\TimesheetController\bin\Debug\Timesheet.pdb
-C:\Code\Timesheet\Timesheet\TimesheetController\obj\Debug\TimesheetController.exe
