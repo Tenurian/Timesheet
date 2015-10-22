@@ -4,15 +4,26 @@
 winexe
 C#
 .cs
+<<<<<<< HEAD
 C:\Users\JWunz\Documents\NU\CSC160\Timesheet\Timesheet\Timesheet\TimesheetView\obj\Debug\
+=======
+C:\Users\Domingos Fernandes\Desktop\Timesheet\github\Timesheet\Timesheet\TimesheetView\obj\Debug\
+>>>>>>> 5261d1dc210ac939a741a70d3bf0255812eb41ea
 TimesheetView
 none
 false
 DEBUG;TRACE
+<<<<<<< HEAD
 C:\Users\JWunz\Documents\NU\CSC160\Timesheet\Timesheet\Timesheet\TimesheetView\App.xaml
 11151548125
 
 9-190802297
+=======
+C:\Users\Domingos Fernandes\Desktop\Timesheet\github\Timesheet\Timesheet\TimesheetView\App.xaml
+11151548125
+
+9-431360277
+>>>>>>> 5261d1dc210ac939a741a70d3bf0255812eb41ea
 13738642453
 MainWindow.xaml;
 

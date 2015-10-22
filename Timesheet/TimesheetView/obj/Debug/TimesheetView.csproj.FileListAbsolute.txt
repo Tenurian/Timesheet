@@ -1,0 +1,14 @@
+C:\Users\Domingos Fernandes\Desktop\Timesheet\github\Timesheet\Timesheet\TimesheetView\bin\Debug\TimesheetView.exe.config
+C:\Users\Domingos Fernandes\Desktop\Timesheet\github\Timesheet\Timesheet\TimesheetView\bin\Debug\TimesheetView.exe
+C:\Users\Domingos Fernandes\Desktop\Timesheet\github\Timesheet\Timesheet\TimesheetView\bin\Debug\TimesheetView.pdb
+C:\Users\Domingos Fernandes\Desktop\Timesheet\github\Timesheet\Timesheet\TimesheetView\obj\Debug\TimesheetView.csprojResolveAssemblyReference.cache
+C:\Users\Domingos Fernandes\Desktop\Timesheet\github\Timesheet\Timesheet\TimesheetView\obj\Debug\MainWindow.g.cs
+C:\Users\Domingos Fernandes\Desktop\Timesheet\github\Timesheet\Timesheet\TimesheetView\obj\Debug\App.g.cs
+C:\Users\Domingos Fernandes\Desktop\Timesheet\github\Timesheet\Timesheet\TimesheetView\obj\Debug\TimesheetView_MarkupCompile.cache
+C:\Users\Domingos Fernandes\Desktop\Timesheet\github\Timesheet\Timesheet\TimesheetView\obj\Debug\TimesheetView_MarkupCompile.lref
+C:\Users\Domingos Fernandes\Desktop\Timesheet\github\Timesheet\Timesheet\TimesheetView\obj\Debug\MainWindow.baml
+C:\Users\Domingos Fernandes\Desktop\Timesheet\github\Timesheet\Timesheet\TimesheetView\obj\Debug\TimesheetView.g.resources
+C:\Users\Domingos Fernandes\Desktop\Timesheet\github\Timesheet\Timesheet\TimesheetView\obj\Debug\TimesheetView.Properties.Resources.resources
+C:\Users\Domingos Fernandes\Desktop\Timesheet\github\Timesheet\Timesheet\TimesheetView\obj\Debug\TimesheetView.csproj.GenerateResource.Cache
+C:\Users\Domingos Fernandes\Desktop\Timesheet\github\Timesheet\Timesheet\TimesheetView\obj\Debug\TimesheetView.exe
+C:\Users\Domingos Fernandes\Desktop\Timesheet\github\Timesheet\Timesheet\TimesheetView\obj\Debug\TimesheetView.pdb
