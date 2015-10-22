@@ -37,11 +37,7 @@ namespace Timesheet.Tests
             int hoursWorked = 35;
             int expected = 0;
             TimesheetGenerator tg = new TimesheetGenerator();
-<<<<<<< HEAD
-           int returnedValue = tg.CalculateOvertime(hoursWorked);
-=======
             int returnedValue = tg.CalculateOvertime(hoursWorked);
->>>>>>> 73e7ebf485b87767134061486b05bd2da4d923b9
             Assert.AreEqual(returnedValue, expected);
         }
         [TestMethod()]
@@ -56,23 +52,16 @@ namespace Timesheet.Tests
         [TestMethod()]
         public void TimesheetGeneratorTest()
         {
-<<<<<<< HEAD
-=======
             //testing all constructors, 
             // X_1 = Exactly the max number hours worked
             // X_2 = 1 hour overtime
             // X_3 = 0 hours
->>>>>>> 73e7ebf485b87767134061486b05bd2da4d923b9
             //aaa (Arrange Act Assert)
             //Arrange
             TimesheetGenerator tg1 = new TimesheetGenerator();      //DEFAULT 2 weeks, 40 Hours max
             TimesheetGenerator tg2 = new TimesheetGenerator(1);     //1 week, default max
             TimesheetGenerator tg3 = new TimesheetGenerator(1, 36);  //1 week, 36 hours max
             //Act
-<<<<<<< HEAD
-            //Assert
-            Assert.Fail();
-=======
             int expected1_1 = 0;
             int expected1_2 = 1;
             int expected1_3 = 0;
@@ -110,35 +99,6 @@ namespace Timesheet.Tests
             Assert.AreEqual(expected3_2, actual3_2);
             Assert.AreEqual(expected3_3, actual3_3);
             //Assert.Fail();
->>>>>>> 73e7ebf485b87767134061486b05bd2da4d923b9
-        }
-
-        [TestMethod()]
-        public void ValidateInputTestValid()
-        {
-            int actual = 16;
-            TimesheetGenerator tg = new TimesheetGenerator();
-         bool returned = tg.ValidateInput(actual);
-            bool expected = true;
-            Assert.AreEqual(expected, returned);
-        }
-        [TestMethod()]
-        public void ValidateInputTestInvalid()
-        {
-            int actual = 27;
-            TimesheetGenerator tg = new TimesheetGenerator();
-            bool returned = tg.ValidateInput(actual);
-            bool expected = false;
-            Assert.AreEqual(expected, returned);
-        }
-        [TestMethod()]
-        public void ValidateInputTestNegative()
-        {
-            int actual = -17;
-            TimesheetGenerator tg = new TimesheetGenerator();
-            bool returned = tg.ValidateInput(actual);
-            bool expected = false;
-            Assert.AreEqual(expected, returned);
         }
     }
 }
