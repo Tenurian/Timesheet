@@ -1,0 +1,24 @@
+C:\Code\Timesheet\Timesheet\Timesheet\bin\Debug\Timesheet.pdb
+C:\Code\Timesheet\Timesheet\Timesheet\obj\Debug\Timesheet.csprojResolveAssemblyReference.cache
+C:\Code\Timesheet\Timesheet\Timesheet\obj\Debug\Timesheet.pdb
+C:\Users\Domingos Fernandes\Desktop\Timesheet\Timesheet\Timesheet\Timesheet\bin\Debug\Timesheet.exe.config
+C:\Users\Domingos Fernandes\Desktop\Timesheet\Timesheet\Timesheet\Timesheet\obj\Debug\Timesheet.exe
+C:\Users\Domingos Fernandes\Desktop\Timesheet\Timesheet\Timesheet\Timesheet\obj\Debug\Timesheet.pdb
+C:\Users\Domingos Fernandes\Desktop\Timesheet\Timesheet\Timesheet\Timesheet\bin\Debug\Timesheet.exe
+C:\Users\Domingos Fernandes\Desktop\Timesheet\Timesheet\Timesheet\Timesheet\bin\Debug\Timesheet.pdb
+C:\Users\Domingos Fernandes\Desktop\Timesheet\Timesheet\Timesheet\Timesheet\obj\Debug\Timesheet.csprojResolveAssemblyReference.cache
+C:\Users\blazi\Documents\Neumont\DotNet\Timesheet\Timesheet\Timesheet\Timesheet\bin\Debug\Timesheet.exe.config
+C:\Users\blazi\Documents\Neumont\DotNet\Timesheet\Timesheet\Timesheet\Timesheet\obj\Debug\Timesheet.exe
+C:\Users\blazi\Documents\Neumont\DotNet\Timesheet\Timesheet\Timesheet\Timesheet\obj\Debug\Timesheet.pdb
+C:\Users\blazi\Documents\Neumont\DotNet\Timesheet\Timesheet\Timesheet\Timesheet\bin\Debug\Timesheet.exe
+C:\Users\blazi\Documents\Neumont\DotNet\Timesheet\Timesheet\Timesheet\Timesheet\bin\Debug\Timesheet.pdb
+C:\Users\blazi\Documents\Neumont\DotNet\Timesheet\Timesheet\Timesheet\Timesheet\obj\Debug\Timesheet.csprojResolveAssemblyReference.cache
+C:\Code\Timesheet\Timesheet\Timesheet\bin\Debug\Timesheet.dll.config
+C:\Code\Timesheet\Timesheet\Timesheet\bin\Debug\Timesheet.dll
+C:\Code\Timesheet\Timesheet\Timesheet\obj\Debug\Timesheet.dll
+C:\Users\Domingos Fernandes\Desktop\Timesheet\github\Timesheet\Timesheet\Timesheet\bin\Debug\Timesheet.dll.config
+C:\Users\Domingos Fernandes\Desktop\Timesheet\github\Timesheet\Timesheet\Timesheet\bin\Debug\Timesheet.dll
+C:\Users\Domingos Fernandes\Desktop\Timesheet\github\Timesheet\Timesheet\Timesheet\bin\Debug\Timesheet.pdb
+C:\Users\Domingos Fernandes\Desktop\Timesheet\github\Timesheet\Timesheet\Timesheet\obj\Debug\Timesheet.csprojResolveAssemblyReference.cache
+C:\Users\Domingos Fernandes\Desktop\Timesheet\github\Timesheet\Timesheet\Timesheet\obj\Debug\Timesheet.dll
+C:\Users\Domingos Fernandes\Desktop\Timesheet\github\Timesheet\Timesheet\Timesheet\obj\Debug\Timesheet.pdb
