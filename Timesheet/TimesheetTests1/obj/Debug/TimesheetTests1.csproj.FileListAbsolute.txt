@@ -1,0 +1,26 @@
+C:\Code\Timesheet\Timesheet\TimesheetTests1\bin\Debug\TimesheetTests1.dll
+C:\Code\Timesheet\Timesheet\TimesheetTests1\bin\Debug\TimesheetTests1.pdb
+C:\Code\Timesheet\Timesheet\TimesheetTests1\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll
+C:\Code\Timesheet\Timesheet\TimesheetTests1\bin\Debug\Timesheet.exe
+C:\Code\Timesheet\Timesheet\TimesheetTests1\bin\Debug\Timesheet.pdb
+C:\Code\Timesheet\Timesheet\TimesheetTests1\obj\Debug\TimesheetTests1.csprojResolveAssemblyReference.cache
+C:\Code\Timesheet\Timesheet\TimesheetTests1\obj\Debug\TimesheetTests1.dll
+C:\Code\Timesheet\Timesheet\TimesheetTests1\obj\Debug\TimesheetTests1.pdb
+C:\Users\blazi\Documents\Neumont\DotNet\Timesheet\Timesheet\Timesheet\TimesheetTests1\bin\Debug\TimesheetTests1.dll
+C:\Users\blazi\Documents\Neumont\DotNet\Timesheet\Timesheet\Timesheet\TimesheetTests1\bin\Debug\TimesheetTests1.pdb
+C:\Users\blazi\Documents\Neumont\DotNet\Timesheet\Timesheet\Timesheet\TimesheetTests1\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll
+C:\Users\blazi\Documents\Neumont\DotNet\Timesheet\Timesheet\Timesheet\TimesheetTests1\bin\Debug\Timesheet.exe
+C:\Users\blazi\Documents\Neumont\DotNet\Timesheet\Timesheet\Timesheet\TimesheetTests1\bin\Debug\Timesheet.pdb
+C:\Users\blazi\Documents\Neumont\DotNet\Timesheet\Timesheet\Timesheet\TimesheetTests1\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.xml
+C:\Users\blazi\Documents\Neumont\DotNet\Timesheet\Timesheet\Timesheet\TimesheetTests1\obj\Debug\TimesheetTests1.csprojResolveAssemblyReference.cache
+C:\Users\blazi\Documents\Neumont\DotNet\Timesheet\Timesheet\Timesheet\TimesheetTests1\obj\Debug\TimesheetTests1.dll
+C:\Users\blazi\Documents\Neumont\DotNet\Timesheet\Timesheet\Timesheet\TimesheetTests1\obj\Debug\TimesheetTests1.pdb
+C:\Users\Domingos Fernandes\Desktop\Timesheet\github\Timesheet\Timesheet\TimesheetTests1\bin\Debug\TimesheetTests1.dll
+C:\Users\Domingos Fernandes\Desktop\Timesheet\github\Timesheet\Timesheet\TimesheetTests1\bin\Debug\TimesheetTests1.pdb
+C:\Users\Domingos Fernandes\Desktop\Timesheet\github\Timesheet\Timesheet\TimesheetTests1\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll
+C:\Users\Domingos Fernandes\Desktop\Timesheet\github\Timesheet\Timesheet\TimesheetTests1\bin\Debug\Timesheet.dll
+C:\Users\Domingos Fernandes\Desktop\Timesheet\github\Timesheet\Timesheet\TimesheetTests1\bin\Debug\Timesheet.pdb
+C:\Users\Domingos Fernandes\Desktop\Timesheet\github\Timesheet\Timesheet\TimesheetTests1\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.xml
+C:\Users\Domingos Fernandes\Desktop\Timesheet\github\Timesheet\Timesheet\TimesheetTests1\obj\Debug\TimesheetTests1.csprojResolveAssemblyReference.cache
+C:\Users\Domingos Fernandes\Desktop\Timesheet\github\Timesheet\Timesheet\TimesheetTests1\obj\Debug\TimesheetTests1.dll
+C:\Users\Domingos Fernandes\Desktop\Timesheet\github\Timesheet\Timesheet\TimesheetTests1\obj\Debug\TimesheetTests1.pdb
