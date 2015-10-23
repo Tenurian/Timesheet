@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:TimesheetView"
         mc:Ignorable="d"
-        Title="Timesheet" Height="450" Width="650">
+        Title="Timesheet" Height="500" Width="700">
     <StackPanel x:Name="MyTimesheet">
         <DockPanel>
             <UniformGrid Columns="4">
@@ -19,9 +19,9 @@
             <UniformGrid Columns="4" x:Name="Day_1">
                 <DatePicker />
                 <Grid>
-                    <RadioButton GroupName="Day1" HorizontalAlignment="Left">R</RadioButton>
-                    <RadioButton GroupName="Day1" HorizontalAlignment="Center">S</RadioButton>
-                    <RadioButton GroupName="Day1" HorizontalAlignment="Right">V</RadioButton>
+                    <RadioButton GroupName="Day1" HorizontalAlignment="Left" Margin="6px">R</RadioButton>
+                    <RadioButton GroupName="Day1" HorizontalAlignment="Center" Margin="6px">S</RadioButton>
+                    <RadioButton GroupName="Day1" HorizontalAlignment="Right" Margin="6px">V</RadioButton>
                 </Grid>
                 <TextBox>yo</TextBox>
                 <TextBox>yo</TextBox>
@@ -31,9 +31,9 @@
             <UniformGrid Columns="4" x:Name="Day_2">
                 <DatePicker />
                 <Grid>
-                    <RadioButton GroupName="Day2" HorizontalAlignment="Left">R</RadioButton>
-                    <RadioButton GroupName="Day2" HorizontalAlignment="Center">S</RadioButton>
-                    <RadioButton GroupName="Day2" HorizontalAlignment="Right">V</RadioButton>
+                    <RadioButton GroupName="Day2" HorizontalAlignment="Left" Margin="6px">R</RadioButton>
+                    <RadioButton GroupName="Day2" HorizontalAlignment="Center" Margin="6px">S</RadioButton>
+                    <RadioButton GroupName="Day2" HorizontalAlignment="Right" Margin="6px">V</RadioButton>
                 </Grid>
                 <TextBox>yo</TextBox>
                 <TextBox>yo</TextBox>
@@ -43,9 +43,9 @@
             <UniformGrid Columns="4" x:Name="Day_3">
                 <DatePicker />
                 <Grid>
-                    <RadioButton GroupName="Day3" HorizontalAlignment="Left">R</RadioButton>
-                    <RadioButton GroupName="Day3" HorizontalAlignment="Center">S</RadioButton>
-                    <RadioButton GroupName="Day3" HorizontalAlignment="Right">V</RadioButton>
+                    <RadioButton GroupName="Day3" HorizontalAlignment="Left" Margin="6px">R</RadioButton>
+                    <RadioButton GroupName="Day3" HorizontalAlignment="Center" Margin="6px">S</RadioButton>
+                    <RadioButton GroupName="Day3" HorizontalAlignment="Right" Margin="6px">V</RadioButton>
                 </Grid>
                 <TextBox>yo</TextBox>
                 <TextBox>yo</TextBox>
@@ -55,9 +55,9 @@
             <UniformGrid Columns="4" x:Name="Day_4">
                 <DatePicker />
                 <Grid>
-                    <RadioButton GroupName="Day4" HorizontalAlignment="Left">R</RadioButton>
-                    <RadioButton GroupName="Day4" HorizontalAlignment="Center">S</RadioButton>
-                    <RadioButton GroupName="Day4" HorizontalAlignment="Right">V</RadioButton>
+                    <RadioButton GroupName="Day4" HorizontalAlignment="Left" Margin="6px">R</RadioButton>
+                    <RadioButton GroupName="Day4" HorizontalAlignment="Center" Margin="6px">S</RadioButton>
+                    <RadioButton GroupName="Day4" HorizontalAlignment="Right" Margin="6px">V</RadioButton>
                 </Grid>
                 <TextBox>yo</TextBox>
                 <TextBox>yo</TextBox>
@@ -67,9 +67,9 @@
             <UniformGrid Columns="4" x:Name="Day_5">
                 <DatePicker />
                 <Grid>
-                    <RadioButton GroupName="Day5" HorizontalAlignment="Left">R</RadioButton>
-                    <RadioButton GroupName="Day5" HorizontalAlignment="Center">S</RadioButton>
-                    <RadioButton GroupName="Day5" HorizontalAlignment="Right">V</RadioButton>
+                    <RadioButton GroupName="Day5" HorizontalAlignment="Left" Margin="6px">R</RadioButton>
+                    <RadioButton GroupName="Day5" HorizontalAlignment="Center" Margin="6px">S</RadioButton>
+                    <RadioButton GroupName="Day5" HorizontalAlignment="Right" Margin="6px">V</RadioButton>
                 </Grid>
                 <TextBox>yo</TextBox>
                 <TextBox>yo</TextBox>
@@ -79,9 +79,9 @@
             <UniformGrid Columns="4" x:Name="Day_6">
                 <DatePicker />
                 <Grid>
-                    <RadioButton GroupName="Day6" HorizontalAlignment="Left">R</RadioButton>
-                    <RadioButton GroupName="Day6" HorizontalAlignment="Center">S</RadioButton>
-                    <RadioButton GroupName="Day6" HorizontalAlignment="Right">V</RadioButton>
+                    <RadioButton GroupName="Day6" HorizontalAlignment="Left" Margin="6px">R</RadioButton>
+                    <RadioButton GroupName="Day6" HorizontalAlignment="Center" Margin="6px">S</RadioButton>
+                    <RadioButton GroupName="Day6" HorizontalAlignment="Right" Margin="6px">V</RadioButton>
                 </Grid>
                 <TextBox>yo</TextBox>
                 <TextBox>yo</TextBox>
@@ -91,9 +91,9 @@
             <UniformGrid Columns="4" x:Name="Day_7">
                 <DatePicker />
                 <Grid>
-                    <RadioButton GroupName="Day7" HorizontalAlignment="Left">R</RadioButton>
-                    <RadioButton GroupName="Day7" HorizontalAlignment="Center">S</RadioButton>
-                    <RadioButton GroupName="Day7" HorizontalAlignment="Right">V</RadioButton>
+                    <RadioButton GroupName="Day7" HorizontalAlignment="Left" Margin="6px">R</RadioButton>
+                    <RadioButton GroupName="Day7" HorizontalAlignment="Center" Margin="6px">S</RadioButton>
+                    <RadioButton GroupName="Day7" HorizontalAlignment="Right" Margin="6px">V</RadioButton>
                 </Grid>
                 <TextBox>yo</TextBox>
                 <TextBox>yo</TextBox>
@@ -103,9 +103,9 @@
             <UniformGrid Columns="4" x:Name="Day_8">
                 <DatePicker />
                 <Grid>
-                    <RadioButton GroupName="Day8" HorizontalAlignment="Left">R</RadioButton>
-                    <RadioButton GroupName="Day8" HorizontalAlignment="Center">S</RadioButton>
-                    <RadioButton GroupName="Day8" HorizontalAlignment="Right">V</RadioButton>
+                    <RadioButton GroupName="Day8" HorizontalAlignment="Left" Margin="6px">R</RadioButton>
+                    <RadioButton GroupName="Day8" HorizontalAlignment="Center" Margin="6px">S</RadioButton>
+                    <RadioButton GroupName="Day8" HorizontalAlignment="Right" Margin="6px">V</RadioButton>
                 </Grid>
                 <TextBox>yo</TextBox>
                 <TextBox>yo</TextBox>
@@ -115,9 +115,9 @@
             <UniformGrid Columns="4" x:Name="Day_9">
                 <DatePicker />
                 <Grid>
-                    <RadioButton GroupName="Day9" HorizontalAlignment="Left">R</RadioButton>
-                    <RadioButton GroupName="Day9" HorizontalAlignment="Center">S</RadioButton>
-                    <RadioButton GroupName="Day9" HorizontalAlignment="Right">V</RadioButton>
+                    <RadioButton GroupName="Day9" HorizontalAlignment="Left" Margin="6px">R</RadioButton>
+                    <RadioButton GroupName="Day9" HorizontalAlignment="Center" Margin="6px">S</RadioButton>
+                    <RadioButton GroupName="Day9" HorizontalAlignment="Right" Margin="6px">V</RadioButton>
                 </Grid>
                 <TextBox>yo</TextBox>
                 <TextBox>yo</TextBox>
@@ -127,9 +127,9 @@
             <UniformGrid Columns="4" x:Name="Day_10">
                 <DatePicker />
                 <Grid>
-                    <RadioButton GroupName="Day10" HorizontalAlignment="Left">R</RadioButton>
-                    <RadioButton GroupName="Day10" HorizontalAlignment="Center">S</RadioButton>
-                    <RadioButton GroupName="Day10" HorizontalAlignment="Right">V</RadioButton>
+                    <RadioButton GroupName="Day10" HorizontalAlignment="Left" Margin="6px">R</RadioButton>
+                    <RadioButton GroupName="Day10" HorizontalAlignment="Center" Margin="6px">S</RadioButton>
+                    <RadioButton GroupName="Day10" HorizontalAlignment="Right" Margin="6px">V</RadioButton>
                 </Grid>
                 <TextBox>yo</TextBox>
                 <TextBox>yo</TextBox>
@@ -139,9 +139,9 @@
             <UniformGrid Columns="4" x:Name="Day_11">
                 <DatePicker />
                 <Grid>
-                    <RadioButton GroupName="Day11" HorizontalAlignment="Left">R</RadioButton>
-                    <RadioButton GroupName="Day11" HorizontalAlignment="Center">S</RadioButton>
-                    <RadioButton GroupName="Day11" HorizontalAlignment="Right">V</RadioButton>
+                    <RadioButton GroupName="Day11" HorizontalAlignment="Left" Margin="6px">R</RadioButton>
+                    <RadioButton GroupName="Day11" HorizontalAlignment="Center" Margin="6px">S</RadioButton>
+                    <RadioButton GroupName="Day11" HorizontalAlignment="Right" Margin="6px">V</RadioButton>
                 </Grid>
                 <TextBox>yo</TextBox>
                 <TextBox>yo</TextBox>
@@ -151,9 +151,9 @@
             <UniformGrid Columns="4" x:Name="Day_12">
                 <DatePicker />
                 <Grid>
-                    <RadioButton GroupName="Day12" HorizontalAlignment="Left">R</RadioButton>
-                    <RadioButton GroupName="Day12" HorizontalAlignment="Center">S</RadioButton>
-                    <RadioButton GroupName="Day12" HorizontalAlignment="Right">V</RadioButton>
+                    <RadioButton GroupName="Day12" HorizontalAlignment="Left" Margin="6px">R</RadioButton>
+                    <RadioButton GroupName="Day12" HorizontalAlignment="Center" Margin="6px">S</RadioButton>
+                    <RadioButton GroupName="Day12" HorizontalAlignment="Right" Margin="6px">V</RadioButton>
                 </Grid>
                 <TextBox>yo</TextBox>
                 <TextBox>yo</TextBox>
@@ -163,9 +163,9 @@
             <UniformGrid Columns="4" x:Name="Day_13">
                 <DatePicker />
                 <Grid>
-                    <RadioButton GroupName="Day13" HorizontalAlignment="Left">R</RadioButton>
-                    <RadioButton GroupName="Day13" HorizontalAlignment="Center">S</RadioButton>
-                    <RadioButton GroupName="Day13" HorizontalAlignment="Right">V</RadioButton>
+                    <RadioButton GroupName="Day13" HorizontalAlignment="Left" Margin="6px">R</RadioButton>
+                    <RadioButton GroupName="Day13" HorizontalAlignment="Center" Margin="6px">S</RadioButton>
+                    <RadioButton GroupName="Day13" HorizontalAlignment="Right" Margin="6px">V</RadioButton>
                 </Grid>
                 <TextBox>yo</TextBox>
                 <TextBox>yo</TextBox>
@@ -175,9 +175,9 @@
             <UniformGrid Columns="4" x:Name="Day_14">
                 <DatePicker />
                 <Grid>
-                    <RadioButton GroupName="Day14" HorizontalAlignment="Left">R</RadioButton>
-                    <RadioButton GroupName="Day14" HorizontalAlignment="Center">S</RadioButton>
-                    <RadioButton GroupName="Day14" HorizontalAlignment="Right">V</RadioButton>
+                    <RadioButton GroupName="Day14" HorizontalAlignment="Left" Margin="6px">R</RadioButton>
+                    <RadioButton GroupName="Day14" HorizontalAlignment="Center" Margin="6px">S</RadioButton>
+                    <RadioButton GroupName="Day14" HorizontalAlignment="Right" Margin="6px">V</RadioButton>
                 </Grid>
                 <TextBox>yo</TextBox>
                 <TextBox>yo</TextBox>
