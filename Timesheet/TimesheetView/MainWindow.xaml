@@ -9,10 +9,10 @@
     <StackPanel x:Name="MyTimesheet">
         <DockPanel>
             <UniformGrid Columns="4">
-                <TextBox HorizontalAlignment="Center" IsReadOnly="True">Date</TextBox>
-                <TextBox HorizontalAlignment="Center" IsReadOnly="True">Type of Day</TextBox>
-                <TextBox HorizontalAlignment="Center" IsReadOnly="True">Hours Worked</TextBox>
-                <TextBox HorizontalAlignment="Center" IsReadOnly="True">Total hours</TextBox>
+                <TextBox HorizontalAlignment="Center" IsReadOnly="True" BorderThickness="0">Date</TextBox>
+                <TextBox HorizontalAlignment="Center" IsReadOnly="True" BorderThickness="0">Type of Day</TextBox>
+                <TextBox HorizontalAlignment="Center" IsReadOnly="True" BorderThickness="0">Hours Worked</TextBox>
+                <TextBox HorizontalAlignment="Center" IsReadOnly="True" BorderThickness="0">Total hours</TextBox>
             </UniformGrid>
         </DockPanel>
         <Grid x:Name="Row_1">
