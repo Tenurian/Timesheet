@@ -22,3 +22,9 @@ C:\Users\Domingos Fernandes\Desktop\Timesheet\github\Timesheet\Timesheet\Timeshe
 C:\Users\Domingos Fernandes\Desktop\Timesheet\github\Timesheet\Timesheet\Timesheet\obj\Debug\Timesheet.csprojResolveAssemblyReference.cache
 C:\Users\Domingos Fernandes\Desktop\Timesheet\github\Timesheet\Timesheet\Timesheet\obj\Debug\Timesheet.dll
 C:\Users\Domingos Fernandes\Desktop\Timesheet\github\Timesheet\Timesheet\Timesheet\obj\Debug\Timesheet.pdb
+C:\Users\Tenurian\Code\Timesheet\Timesheet\Timesheet\bin\Debug\Timesheet.dll.config
+C:\Users\Tenurian\Code\Timesheet\Timesheet\Timesheet\bin\Debug\Timesheet.dll
+C:\Users\Tenurian\Code\Timesheet\Timesheet\Timesheet\bin\Debug\Timesheet.pdb
+C:\Users\Tenurian\Code\Timesheet\Timesheet\Timesheet\obj\Debug\Timesheet.csprojResolveAssemblyReference.cache
+C:\Users\Tenurian\Code\Timesheet\Timesheet\Timesheet\obj\Debug\Timesheet.dll
+C:\Users\Tenurian\Code\Timesheet\Timesheet\Timesheet\obj\Debug\Timesheet.pdb
