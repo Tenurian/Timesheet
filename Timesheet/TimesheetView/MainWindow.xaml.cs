@@ -24,5 +24,11 @@ namespace TimesheetView
         {
             InitializeComponent();
         }
+
+        private void HD1_TextChanged(object sender, TextCompositionEventArgs e)
+        {
+            if (e.Text.Any(c => !char.IsDigit(c))) e.Handled = true;
+            
+        }
     }
 }
