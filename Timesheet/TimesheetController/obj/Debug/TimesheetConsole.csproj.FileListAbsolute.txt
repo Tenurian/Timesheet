@@ -1,0 +1,7 @@
+C:\Users\Tenurian\Dropbox\Neumont\dotNET\Timesheet\Timesheet\TimesheetController\bin\Debug\TimesheetConsole.exe
+C:\Users\Tenurian\Dropbox\Neumont\dotNET\Timesheet\Timesheet\TimesheetController\bin\Debug\TimesheetConsole.pdb
+C:\Users\Tenurian\Dropbox\Neumont\dotNET\Timesheet\Timesheet\TimesheetController\bin\Debug\Timesheet.dll
+C:\Users\Tenurian\Dropbox\Neumont\dotNET\Timesheet\Timesheet\TimesheetController\bin\Debug\Timesheet.pdb
+C:\Users\Tenurian\Dropbox\Neumont\dotNET\Timesheet\Timesheet\TimesheetController\obj\Debug\TimesheetConsole.csprojResolveAssemblyReference.cache
+C:\Users\Tenurian\Dropbox\Neumont\dotNET\Timesheet\Timesheet\TimesheetController\obj\Debug\TimesheetConsole.exe
+C:\Users\Tenurian\Dropbox\Neumont\dotNET\Timesheet\Timesheet\TimesheetController\obj\Debug\TimesheetConsole.pdb
