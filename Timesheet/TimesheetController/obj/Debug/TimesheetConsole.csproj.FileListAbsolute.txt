@@ -1,0 +1,7 @@
+C:\Users\Domingos Fernandes\Desktop\Timesheet\github\Timesheet\Timesheet\TimesheetController\bin\Debug\TimesheetConsole.exe
+C:\Users\Domingos Fernandes\Desktop\Timesheet\github\Timesheet\Timesheet\TimesheetController\bin\Debug\TimesheetConsole.pdb
+C:\Users\Domingos Fernandes\Desktop\Timesheet\github\Timesheet\Timesheet\TimesheetController\bin\Debug\Timesheet.dll
+C:\Users\Domingos Fernandes\Desktop\Timesheet\github\Timesheet\Timesheet\TimesheetController\bin\Debug\Timesheet.pdb
+C:\Users\Domingos Fernandes\Desktop\Timesheet\github\Timesheet\Timesheet\TimesheetController\obj\Debug\TimesheetConsole.csprojResolveAssemblyReference.cache
+C:\Users\Domingos Fernandes\Desktop\Timesheet\github\Timesheet\Timesheet\TimesheetController\obj\Debug\TimesheetConsole.exe
+C:\Users\Domingos Fernandes\Desktop\Timesheet\github\Timesheet\Timesheet\TimesheetController\obj\Debug\TimesheetConsole.pdb
