@@ -6,6 +6,9 @@
         xmlns:local="clr-namespace:TimesheetView"
         mc:Ignorable="d"
         Title="Timesheet" Height="500" Width="700">
+    <Window.Resources>
+        <local:ValueConverter x:Key="ValueConverter" />
+    </Window.Resources>
     <StackPanel x:Name="MyTimesheet">
         <DockPanel>
             <UniformGrid Columns="4">
@@ -19,168 +22,168 @@
             <UniformGrid Columns="4" x:Name="Day_1">
                 <DatePicker />
                 <Grid>
-                    <RadioButton GroupName="Day1" HorizontalAlignment="Left" Margin="6px">R</RadioButton>
-                    <RadioButton GroupName="Day1" HorizontalAlignment="Center" Margin="6px">S</RadioButton>
-                    <RadioButton GroupName="Day1" HorizontalAlignment="Right" Margin="6px">V</RadioButton>
+                    <RadioButton x:Name="DR1" GroupName="Day1" HorizontalAlignment="Left" Margin="6px" IsChecked="True">R</RadioButton>
+                    <RadioButton x:Name="DS1" GroupName="Day1" HorizontalAlignment="Center" Margin="6px" Checked="D1_Checked">S</RadioButton>
+                    <RadioButton x:Name="DV1" GroupName="Day1" HorizontalAlignment="Right" Margin="6px" Checked="D1_Checked">V</RadioButton>
                 </Grid>
-                <TextBox x:Name="HD1" HorizontalAlignment="Center" Width="173" Height="27" VerticalAlignment="Bottom" TextCompositionManager.TextInput="HD1_TextChanged" />
-                <TextBlock Text="{Binding Text, ElementName=HD1}" HorizontalAlignment="Center" Width="173"  />
+                <TextBox x:Name="HD1" IsEnabled="{Binding ElementName=DR1, Path=IsChecked}" HorizontalAlignment="Center" Width="173" Height="27" VerticalAlignment="Bottom" Text="0" />
+                <TextBlock x:Name="HDR1" HorizontalAlignment="Center" Width="173" Text="{Binding ElementName=HD1, Path=Text, Converter={StaticResource ValueConverter}}" />
             </UniformGrid>
         </Grid>
         <Grid x:Name="Row_2">
             <UniformGrid Columns="4" x:Name="Day_2">
                 <DatePicker />
                 <Grid>
-                    <RadioButton GroupName="Day2" HorizontalAlignment="Left" Margin="6px">R</RadioButton>
-                    <RadioButton GroupName="Day2" HorizontalAlignment="Center" Margin="6px">S</RadioButton>
-                    <RadioButton GroupName="Day2" HorizontalAlignment="Right" Margin="6px">V</RadioButton>
+                    <RadioButton x:Name="DR2" GroupName="Day2" HorizontalAlignment="Left" Margin="6px" IsChecked="True">R</RadioButton>
+                    <RadioButton x:Name="DS2" GroupName="Day2" HorizontalAlignment="Center" Margin="6px" Checked="D2_Checked">S</RadioButton>
+                    <RadioButton x:Name="DV2" GroupName="Day2" HorizontalAlignment="Right" Margin="6px" Checked="D2_Checked">V</RadioButton>
                 </Grid>
-                <TextBox x:Name="HD2" HorizontalAlignment="Center" Width="173">yo</TextBox>
-                <TextBlock Text="{Binding Text, ElementName=HD2}" HorizontalAlignment="Center" Width="173"  />
+                <TextBox x:Name="HD2" IsEnabled="{Binding ElementName=DR2, Path=IsChecked}" HorizontalAlignment="Center" Width="173" Height="27" VerticalAlignment="Bottom" Text="0" />
+                <TextBlock x:Name="HDR2" HorizontalAlignment="Center" Width="173" Text="{Binding ElementName=HD2, Path=Text, Converter={StaticResource ValueConverter}}" />
             </UniformGrid>
         </Grid>
         <Grid x:Name="Row_3">
             <UniformGrid Columns="4" x:Name="Day_3">
                 <DatePicker />
                 <Grid>
-                    <RadioButton GroupName="Day3" HorizontalAlignment="Left" Margin="6px">R</RadioButton>
-                    <RadioButton GroupName="Day3" HorizontalAlignment="Center" Margin="6px">S</RadioButton>
-                    <RadioButton GroupName="Day3" HorizontalAlignment="Right" Margin="6px">V</RadioButton>
+                    <RadioButton x:Name="DR3" GroupName="Day3" HorizontalAlignment="Left" Margin="6px" IsChecked="True">R</RadioButton>
+                    <RadioButton x:Name="DS3" GroupName="Day3" HorizontalAlignment="Center" Margin="6px" Checked="D3_Checked">S</RadioButton>
+                    <RadioButton x:Name="DV3" GroupName="Day3" HorizontalAlignment="Right" Margin="6px" Checked="D3_Checked">V</RadioButton>
                 </Grid>
-                <TextBox x:Name="HD3" HorizontalAlignment="Center" Width="173">yo</TextBox>
-                <TextBlock Text="{Binding Text, ElementName=HD3}" HorizontalAlignment="Center" Width="173"  />
+                <TextBox x:Name="HD3" IsEnabled="{Binding ElementName=DR3, Path=IsChecked}" HorizontalAlignment="Center" Width="173" Height="27" VerticalAlignment="Bottom" Text="0" />
+                <TextBlock x:Name="HDR3" HorizontalAlignment="Center" Width="173" Text="{Binding ElementName=HD3, Path=Text, Converter={StaticResource ValueConverter}}" />
             </UniformGrid>
         </Grid>
         <Grid x:Name="Row_4">
             <UniformGrid Columns="4" x:Name="Day_4">
                 <DatePicker />
                 <Grid>
-                    <RadioButton GroupName="Day4" HorizontalAlignment="Left" Margin="6px">R</RadioButton>
-                    <RadioButton GroupName="Day4" HorizontalAlignment="Center" Margin="6px">S</RadioButton>
-                    <RadioButton GroupName="Day4" HorizontalAlignment="Right" Margin="6px">V</RadioButton>
+                    <RadioButton x:Name="DR4" GroupName="Day4" HorizontalAlignment="Left" Margin="6px" IsChecked="True">R</RadioButton>
+                    <RadioButton x:Name="DS4" GroupName="Day4" HorizontalAlignment="Center" Margin="6px" Checked="D4_Checked">S</RadioButton>
+                    <RadioButton x:Name="DV4" GroupName="Day4" HorizontalAlignment="Right" Margin="6px" Checked="D4_Checked">V</RadioButton>
                 </Grid>
-                <TextBox x:Name="HD4" HorizontalAlignment="Center" Width="173">yo</TextBox>
-                <TextBlock Text="{Binding Text, ElementName=HD4}" HorizontalAlignment="Center" Width="173"  />
+                <TextBox x:Name="HD4" IsEnabled="{Binding ElementName=DR4, Path=IsChecked}" HorizontalAlignment="Center" Width="173" Height="27" VerticalAlignment="Bottom" Text="0" />
+                <TextBlock x:Name="HDR4" HorizontalAlignment="Center" Width="173" Text="{Binding ElementName=HD4, Path=Text, Converter={StaticResource ValueConverter}}" />
             </UniformGrid>
         </Grid>
         <Grid x:Name="Row_5">
             <UniformGrid Columns="4" x:Name="Day_5">
                 <DatePicker />
                 <Grid>
-                    <RadioButton GroupName="Day5" HorizontalAlignment="Left" Margin="6px">R</RadioButton>
-                    <RadioButton GroupName="Day5" HorizontalAlignment="Center" Margin="6px">S</RadioButton>
-                    <RadioButton GroupName="Day5" HorizontalAlignment="Right" Margin="6px">V</RadioButton>
+                    <RadioButton x:Name="DR5" GroupName="Day5" HorizontalAlignment="Left" Margin="6px" IsChecked="True">R</RadioButton>
+                    <RadioButton x:Name="DS5" GroupName="Day5" HorizontalAlignment="Center" Margin="6px" Checked="D5_Checked">S</RadioButton>
+                    <RadioButton x:Name="DV5" GroupName="Day5" HorizontalAlignment="Right" Margin="6px" Checked="D5_Checked">V</RadioButton>
                 </Grid>
-                <TextBox x:Name="HD5" HorizontalAlignment="Center" Width="173">yo</TextBox>
-                <TextBlock Text="{Binding Text, ElementName=HD5}" HorizontalAlignment="Center" Width="173"  />
+                <TextBox x:Name="HD5" IsEnabled="{Binding ElementName=DR5, Path=IsChecked}" HorizontalAlignment="Center" Width="173" Height="27" VerticalAlignment="Bottom" Text="0" />
+                <TextBlock x:Name="HDR5" HorizontalAlignment="Center" Width="173" Text="{Binding ElementName=HD5, Path=Text, Converter={StaticResource ValueConverter}}" />
             </UniformGrid>
         </Grid>
         <Grid x:Name="Row_6">
             <UniformGrid Columns="4" x:Name="Day_6">
                 <DatePicker />
                 <Grid>
-                    <RadioButton GroupName="Day6" HorizontalAlignment="Left" Margin="6px">R</RadioButton>
-                    <RadioButton GroupName="Day6" HorizontalAlignment="Center" Margin="6px">S</RadioButton>
-                    <RadioButton GroupName="Day6" HorizontalAlignment="Right" Margin="6px">V</RadioButton>
+                    <RadioButton x:Name="DR6" GroupName="Day6" HorizontalAlignment="Left" Margin="6px" IsChecked="True">R</RadioButton>
+                    <RadioButton x:Name="DS6" GroupName="Day6" HorizontalAlignment="Center" Margin="6px" Checked="D6_Checked">S</RadioButton>
+                    <RadioButton x:Name="DV6" GroupName="Day6" HorizontalAlignment="Right" Margin="6px" Checked="D6_Checked">V</RadioButton>
                 </Grid>
-                <TextBox x:Name="HD6" HorizontalAlignment="Center" Width="173">yo</TextBox>
-                <TextBlock Text="{Binding Text, ElementName=HD6}" HorizontalAlignment="Center" Width="173"  />
+                <TextBox x:Name="HD6" IsEnabled="{Binding ElementName=DR6, Path=IsChecked}" HorizontalAlignment="Center" Width="173" Height="27" VerticalAlignment="Bottom" Text="0" />
+                <TextBlock x:Name="HDR6" HorizontalAlignment="Center" Width="173" Text="{Binding ElementName=HD6, Path=Text, Converter={StaticResource ValueConverter}}" />
             </UniformGrid>
         </Grid>
         <Grid x:Name="Row_7">
             <UniformGrid Columns="4" x:Name="Day_7">
                 <DatePicker />
                 <Grid>
-                    <RadioButton GroupName="Day7" HorizontalAlignment="Left" Margin="6px">R</RadioButton>
-                    <RadioButton GroupName="Day7" HorizontalAlignment="Center" Margin="6px">S</RadioButton>
-                    <RadioButton GroupName="Day7" HorizontalAlignment="Right" Margin="6px">V</RadioButton>
+                    <RadioButton x:Name="DR7" GroupName="Day7" HorizontalAlignment="Left" Margin="6px" IsChecked="True">R</RadioButton>
+                    <RadioButton x:Name="DS7" GroupName="Day7" HorizontalAlignment="Center" Margin="6px" Checked="D7_Checked">S</RadioButton>
+                    <RadioButton x:Name="DV7" GroupName="Day7" HorizontalAlignment="Right" Margin="6px" Checked="D7_Checked">V</RadioButton>
                 </Grid>
-                <TextBox x:Name="HD7" HorizontalAlignment="Center" Width="173">yo</TextBox>
-                <TextBlock Text="{Binding Text, ElementName=HD7}" HorizontalAlignment="Center" Width="173"  />
+                <TextBox x:Name="HD7" IsEnabled="{Binding ElementName=DR7, Path=IsChecked}" HorizontalAlignment="Center" Width="173" Height="27" VerticalAlignment="Bottom" Text="0" />
+                <TextBlock x:Name="HDR7" HorizontalAlignment="Center" Width="173" Text="{Binding ElementName=HD7, Path=Text, Converter={StaticResource ValueConverter}}" />
             </UniformGrid>
         </Grid>
         <Grid x:Name="Row_8">
             <UniformGrid Columns="4" x:Name="Day_8">
                 <DatePicker />
                 <Grid>
-                    <RadioButton GroupName="Day8" HorizontalAlignment="Left" Margin="6px">R</RadioButton>
-                    <RadioButton GroupName="Day8" HorizontalAlignment="Center" Margin="6px">S</RadioButton>
-                    <RadioButton GroupName="Day8" HorizontalAlignment="Right" Margin="6px">V</RadioButton>
+                    <RadioButton x:Name="DR8" GroupName="Day8" HorizontalAlignment="Left" Margin="6px" IsChecked="True">R</RadioButton>
+                    <RadioButton x:Name="DS8" GroupName="Day8" HorizontalAlignment="Center" Margin="6px" Checked="D8_Checked">S</RadioButton>
+                    <RadioButton x:Name="DV8" GroupName="Day8" HorizontalAlignment="Right" Margin="6px" Checked="D8_Checked">V</RadioButton>
                 </Grid>
-                <TextBox x:Name="HD8" HorizontalAlignment="Center" Width="173">yo</TextBox>
-                <TextBlock Text="{Binding Text, ElementName=HD8}" HorizontalAlignment="Center" Width="173"  />
+                <TextBox x:Name="HD8" IsEnabled="{Binding ElementName=DR8, Path=IsChecked}" HorizontalAlignment="Center" Width="173" Height="27" VerticalAlignment="Bottom" Text="0" />
+                <TextBlock x:Name="HDR8" HorizontalAlignment="Center" Width="173" Text="{Binding ElementName=HD8, Path=Text, Converter={StaticResource ValueConverter}}" />
             </UniformGrid>
         </Grid>
         <Grid x:Name="Row_9">
             <UniformGrid Columns="4" x:Name="Day_9">
                 <DatePicker />
                 <Grid>
-                    <RadioButton GroupName="Day9" HorizontalAlignment="Left" Margin="6px">R</RadioButton>
-                    <RadioButton GroupName="Day9" HorizontalAlignment="Center" Margin="6px">S</RadioButton>
-                    <RadioButton GroupName="Day9" HorizontalAlignment="Right" Margin="6px">V</RadioButton>
+                    <RadioButton x:Name="DR9" GroupName="Day9" HorizontalAlignment="Left" Margin="6px" IsChecked="True">R</RadioButton>
+                    <RadioButton x:Name="DS9" GroupName="Day9" HorizontalAlignment="Center" Margin="6px" Checked="D9_Checked">S</RadioButton>
+                    <RadioButton x:Name="DV9" GroupName="Day9" HorizontalAlignment="Right" Margin="6px" Checked="D9_Checked">V</RadioButton>
                 </Grid>
-                <TextBox x:Name="HD9" HorizontalAlignment="Center" Width="173">yo</TextBox>
-                <TextBlock Text="{Binding Text, ElementName=HD9}" HorizontalAlignment="Center" Width="173"  />
+                <TextBox x:Name="HD9" IsEnabled="{Binding ElementName=DR9, Path=IsChecked}" HorizontalAlignment="Center" Width="173" Height="27" VerticalAlignment="Bottom" Text="0" />
+                <TextBlock x:Name="HDR9" HorizontalAlignment="Center" Width="173" Text="{Binding ElementName=HD9, Path=Text, Converter={StaticResource ValueConverter}}" />
             </UniformGrid>
         </Grid>
         <Grid x:Name="Row_10">
             <UniformGrid Columns="4" x:Name="Day_10">
                 <DatePicker />
                 <Grid>
-                    <RadioButton GroupName="Day10" HorizontalAlignment="Left" Margin="6px">R</RadioButton>
-                    <RadioButton GroupName="Day10" HorizontalAlignment="Center" Margin="6px">S</RadioButton>
-                    <RadioButton GroupName="Day10" HorizontalAlignment="Right" Margin="6px">V</RadioButton>
+                    <RadioButton x:Name="DR10" GroupName="Day10" HorizontalAlignment="Left" Margin="6px" IsChecked="True">R</RadioButton>
+                    <RadioButton x:Name="DS10" GroupName="Day10" HorizontalAlignment="Center" Margin="6px" Checked="D10_Checked">S</RadioButton>
+                    <RadioButton x:Name="DV10" GroupName="Day10" HorizontalAlignment="Right" Margin="6px" Checked="D10_Checked">V</RadioButton>
                 </Grid>
-                <TextBox x:Name="HD10" HorizontalAlignment="Center" Width="173">yo</TextBox>
-                <TextBlock Text="{Binding Text, ElementName=HD10}" HorizontalAlignment="Center" Width="173"  />
+                <TextBox x:Name="HD10" IsEnabled="{Binding ElementName=DR10, Path=IsChecked}" HorizontalAlignment="Center" Width="173" Height="27" VerticalAlignment="Bottom" Text="0" />
+                <TextBlock x:Name="HDR10" HorizontalAlignment="Center" Width="173" Text="{Binding ElementName=HD10, Path=Text, Converter={StaticResource ValueConverter}}" />
             </UniformGrid>
         </Grid>
         <Grid x:Name="Row_11">
             <UniformGrid Columns="4" x:Name="Day_11">
                 <DatePicker />
                 <Grid>
-                    <RadioButton GroupName="Day11" HorizontalAlignment="Left" Margin="6px">R</RadioButton>
-                    <RadioButton GroupName="Day11" HorizontalAlignment="Center" Margin="6px">S</RadioButton>
-                    <RadioButton GroupName="Day11" HorizontalAlignment="Right" Margin="6px">V</RadioButton>
+                    <RadioButton x:Name="DR11" GroupName="Day11" HorizontalAlignment="Left" Margin="6px" IsChecked="True">R</RadioButton>
+                    <RadioButton x:Name="DS11" GroupName="Day11" HorizontalAlignment="Center" Margin="6px" Checked="D11_Checked">S</RadioButton>
+                    <RadioButton x:Name="DV11" GroupName="Day11" HorizontalAlignment="Right" Margin="6px" Checked="D11_Checked">V</RadioButton>
                 </Grid>
-                <TextBox x:Name="HD11" HorizontalAlignment="Center" Width="173">yo</TextBox>
-                <TextBlock Text="{Binding Text, ElementName=HD11}" HorizontalAlignment="Center" Width="173"  />
+                <TextBox x:Name="HD11" IsEnabled="{Binding ElementName=DR11, Path=IsChecked}" HorizontalAlignment="Center" Width="173" Height="27" VerticalAlignment="Bottom" Text="0" />
+                <TextBlock x:Name="HDR11" HorizontalAlignment="Center" Width="173" Text="{Binding ElementName=HD11, Path=Text, Converter={StaticResource ValueConverter}}" />
             </UniformGrid>
         </Grid>
         <Grid x:Name="Row_12">
             <UniformGrid Columns="4" x:Name="Day_12">
                 <DatePicker />
                 <Grid>
-                    <RadioButton GroupName="Day12" HorizontalAlignment="Left" Margin="6px">R</RadioButton>
-                    <RadioButton GroupName="Day12" HorizontalAlignment="Center" Margin="6px">S</RadioButton>
-                    <RadioButton GroupName="Day12" HorizontalAlignment="Right" Margin="6px">V</RadioButton>
+                    <RadioButton x:Name="DR12" GroupName="Day12" HorizontalAlignment="Left" Margin="6px" IsChecked="True">R</RadioButton>
+                    <RadioButton x:Name="DS12" GroupName="Day12" HorizontalAlignment="Center" Margin="6px" Checked="D12_Checked">S</RadioButton>
+                    <RadioButton x:Name="DV12" GroupName="Day12" HorizontalAlignment="Right" Margin="6px" Checked="D12_Checked">V</RadioButton>
                 </Grid>
-                <TextBox x:Name="HD12" HorizontalAlignment="Center" Width="173">yo</TextBox>
-                <TextBlock Text="{Binding Text, ElementName=HD12}" HorizontalAlignment="Center" Width="173"  />
+                <TextBox x:Name="HD12" IsEnabled="{Binding ElementName=DR12, Path=IsChecked}" HorizontalAlignment="Center" Width="173" Height="27" VerticalAlignment="Bottom" Text="0" />
+                <TextBlock x:Name="HDR12" HorizontalAlignment="Center" Width="173" Text="{Binding ElementName=HD12, Path=Text, Converter={StaticResource ValueConverter}}" />
             </UniformGrid>
         </Grid>
         <Grid x:Name="Row_13">
             <UniformGrid Columns="4" x:Name="Day_13">
                 <DatePicker />
                 <Grid>
-                    <RadioButton GroupName="Day13" HorizontalAlignment="Left" Margin="6px">R</RadioButton>
-                    <RadioButton GroupName="Day13" HorizontalAlignment="Center" Margin="6px">S</RadioButton>
-                    <RadioButton GroupName="Day13" HorizontalAlignment="Right" Margin="6px">V</RadioButton>
+                    <RadioButton x:Name="DR13" GroupName="Day13" HorizontalAlignment="Left" Margin="6px" IsChecked="True">R</RadioButton>
+                    <RadioButton x:Name="DS13" GroupName="Day13" HorizontalAlignment="Center" Margin="6px" Checked="D13_Checked">S</RadioButton>
+                    <RadioButton x:Name="DV13" GroupName="Day13" HorizontalAlignment="Right" Margin="6px" Checked="D13_Checked">V</RadioButton>
                 </Grid>
-                <TextBox x:Name="HD13" HorizontalAlignment="Center" Width="173">yo</TextBox>
-                <TextBlock Text="{Binding Text, ElementName=HD13}" HorizontalAlignment="Center" Width="173"  />
+                <TextBox x:Name="HD13" IsEnabled="{Binding ElementName=DR13, Path=IsChecked}" HorizontalAlignment="Center" Width="173" Height="27" VerticalAlignment="Bottom" Text="0" />
+                <TextBlock x:Name="HDR13" HorizontalAlignment="Center" Width="173" Text="{Binding ElementName=HD13, Path=Text, Converter={StaticResource ValueConverter}}" />
             </UniformGrid>
         </Grid>
         <Grid x:Name="Row_14">
             <UniformGrid Columns="4" x:Name="Day_14">
                 <DatePicker />
                 <Grid>
-                    <RadioButton GroupName="Day14" HorizontalAlignment="Left" Margin="6px">R</RadioButton>
-                    <RadioButton GroupName="Day14" HorizontalAlignment="Center" Margin="6px">S</RadioButton>
-                    <RadioButton GroupName="Day14" HorizontalAlignment="Right" Margin="6px">V</RadioButton>
+                    <RadioButton x:Name="DR14" GroupName="Day14" HorizontalAlignment="Left" Margin="6px" IsChecked="True">R</RadioButton>
+                    <RadioButton x:Name="DS14" GroupName="Day14" HorizontalAlignment="Center" Margin="6px" Checked="D14_Checked">S</RadioButton>
+                    <RadioButton x:Name="DV14" GroupName="Day14" HorizontalAlignment="Right" Margin="6px" Checked="D14_Checked">V</RadioButton>
                 </Grid>
-                <TextBox x:Name="HD14" HorizontalAlignment="Center" Width="173">yo</TextBox>
-                <TextBlock Text="{Binding Text, ElementName=HD14}" HorizontalAlignment="Center" Width="173"  />
+                <TextBox x:Name="HD14" IsEnabled="{Binding ElementName=DR14, Path=IsChecked}" HorizontalAlignment="Center" Width="173" Height="27" VerticalAlignment="Bottom" Text="0" />
+                <TextBlock x:Name="HDR14" HorizontalAlignment="Center" Width="173" Text="{Binding ElementName=HD14, Path=Text, Converter={StaticResource ValueConverter}}" />
             </UniformGrid>
         </Grid>
         <Grid x:Name="Calculate">
