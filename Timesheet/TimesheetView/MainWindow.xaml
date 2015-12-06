@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:TimesheetView"
         mc:Ignorable="d"
-        Title="Timesheet" Height="500" Width="700">
+        Title="Timesheet" Height="510" Width="700">
     <Window.Resources>
         <local:ValueConverter x:Key="ValueConverter" />
     </Window.Resources>
@@ -188,7 +188,7 @@
         </Grid>
         <Grid x:Name="Calculate">
             <UniformGrid Columns="3" x:Name="TimeAndOvertime">
-                <TextBox IsReadOnly="True" x:Name="DaysWorked" />
+                <TextBox IsReadOnly="True" x:Name="DaysWorked" Text="Days in Pay Period = 14" />
                 <TextBox IsReadOnly="True" x:Name="TotalHours" />
                 <TextBox IsReadOnly="True" x:Name="OverTimeHours" />
                 

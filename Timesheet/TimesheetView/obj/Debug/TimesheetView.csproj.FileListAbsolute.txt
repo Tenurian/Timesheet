@@ -27,3 +27,4 @@ C:\Users\Tenurian\Dropbox\Neumont\dotNET\Timesheet\Timesheet\TimesheetView\obj\D
 C:\Users\Tenurian\Dropbox\Neumont\dotNET\Timesheet\Timesheet\TimesheetView\obj\Debug\TimesheetView.g.resources
 C:\Users\Tenurian\Dropbox\Neumont\dotNET\Timesheet\Timesheet\TimesheetView\obj\Debug\TimesheetView.Properties.Resources.resources
 C:\Users\Tenurian\Dropbox\Neumont\dotNET\Timesheet\Timesheet\TimesheetView\obj\Debug\TimesheetView.csproj.GenerateResource.Cache
+C:\Users\Domingos Fernandes\Desktop\Timesheet\github\Timesheet\Timesheet\TimesheetView\obj\Debug\GeneratedInternalTypeHelper.g.cs
