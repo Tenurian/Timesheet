@@ -9,6 +9,7 @@
     <Window.Resources>
         <local:ValueConverter x:Key="ValueConverter" />
         <local:TotalTimeConverter x:Key="TotalTimeConverter" />
+        <local:OverTimeConverter x:Key="OverTimeConverter" />
     </Window.Resources>
     <StackPanel x:Name="MyTimesheet">
         <DockPanel>
@@ -190,9 +191,47 @@
         <Grid x:Name="Calculate">
             <UniformGrid Columns="3" x:Name="TimeAndOvertime">
                 <TextBox IsReadOnly="True" x:Name="DaysWorked" Text="Days in Pay Period = 14" />
-                <TextBox IsReadOnly="True" x:Name="TotalHours" />
-                <TextBox IsReadOnly="True" x:Name="OverTimeHours" />
-                
+                <TextBox IsReadOnly="True" x:Name="TotalHours" >
+                    <TextBox.Text>
+                        <MultiBinding Converter="{StaticResource TotalTimeConverter}">
+                            <Binding ElementName="HDR1" Path="Text" />
+                            <Binding ElementName="HDR2" Path="Text" />
+                            <Binding ElementName="HDR3" Path="Text" />
+                            <Binding ElementName="HDR4" Path="Text" />
+                            <Binding ElementName="HDR5" Path="Text" />
+                            <Binding ElementName="HDR6" Path="Text" />
+                            <Binding ElementName="HDR7" Path="Text" />
+                            <Binding ElementName="HDR8" Path="Text" />
+                            <Binding ElementName="HDR9" Path="Text" />
+                            <Binding ElementName="HDR10" Path="Text" />
+                            <Binding ElementName="HDR11" Path="Text" />
+                            <Binding ElementName="HDR12" Path="Text" />
+                            <Binding ElementName="HDR13" Path="Text" />
+                            <Binding ElementName="HDR14" Path="Text" />
+                        </MultiBinding>
+                    </TextBox.Text>
+                </TextBox>
+                <TextBox IsReadOnly="True" x:Name="OverTimeHours">
+
+                    <TextBox.Text>
+                        <MultiBinding Converter="{StaticResource OverTimeConverter}">
+                            <Binding ElementName="HDR1" Path="Text" />
+                            <Binding ElementName="HDR2" Path="Text" />
+                            <Binding ElementName="HDR3" Path="Text" />
+                            <Binding ElementName="HDR4" Path="Text" />
+                            <Binding ElementName="HDR5" Path="Text" />
+                            <Binding ElementName="HDR6" Path="Text" />
+                            <Binding ElementName="HDR7" Path="Text" />
+                            <Binding ElementName="HDR8" Path="Text" />
+                            <Binding ElementName="HDR9" Path="Text" />
+                            <Binding ElementName="HDR10" Path="Text" />
+                            <Binding ElementName="HDR11" Path="Text" />
+                            <Binding ElementName="HDR12" Path="Text" />
+                            <Binding ElementName="HDR13" Path="Text" />
+                            <Binding ElementName="HDR14" Path="Text" />
+                        </MultiBinding>
+                    </TextBox.Text>
+                </TextBox>                
             </UniformGrid>
         </Grid>
         <StackPanel>

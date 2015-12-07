@@ -12,9 +12,8 @@ C:\Users\Domingos Fernandes\Desktop\Timesheet\github\Timesheet\Timesheet\Timeshe
 C:\Users\Domingos Fernandes\Desktop\Timesheet\github\Timesheet\Timesheet\TimesheetView\obj\Debug\TimesheetView.csproj.GenerateResource.Cache
 C:\Users\Domingos Fernandes\Desktop\Timesheet\github\Timesheet\Timesheet\TimesheetView\obj\Debug\TimesheetView.exe
 C:\Users\Domingos Fernandes\Desktop\Timesheet\github\Timesheet\Timesheet\TimesheetView\obj\Debug\TimesheetView.pdb
+C:\Users\Domingos Fernandes\Desktop\Timesheet\github\Timesheet\Timesheet\TimesheetView\obj\Debug\GeneratedInternalTypeHelper.g.cs
 C:\Users\Tenurian\Dropbox\Neumont\dotNET\Timesheet\Timesheet\TimesheetView\bin\Debug\TimesheetView.exe.config
-C:\Users\Tenurian\Dropbox\Neumont\dotNET\Timesheet\Timesheet\TimesheetView\obj\Debug\TimesheetView.exe
-C:\Users\Tenurian\Dropbox\Neumont\dotNET\Timesheet\Timesheet\TimesheetView\obj\Debug\TimesheetView.pdb
 C:\Users\Tenurian\Dropbox\Neumont\dotNET\Timesheet\Timesheet\TimesheetView\bin\Debug\TimesheetView.exe
 C:\Users\Tenurian\Dropbox\Neumont\dotNET\Timesheet\Timesheet\TimesheetView\bin\Debug\TimesheetView.pdb
 C:\Users\Tenurian\Dropbox\Neumont\dotNET\Timesheet\Timesheet\TimesheetView\obj\Debug\TimesheetView.csprojResolveAssemblyReference.cache
@@ -27,4 +26,5 @@ C:\Users\Tenurian\Dropbox\Neumont\dotNET\Timesheet\Timesheet\TimesheetView\obj\D
 C:\Users\Tenurian\Dropbox\Neumont\dotNET\Timesheet\Timesheet\TimesheetView\obj\Debug\TimesheetView.g.resources
 C:\Users\Tenurian\Dropbox\Neumont\dotNET\Timesheet\Timesheet\TimesheetView\obj\Debug\TimesheetView.Properties.Resources.resources
 C:\Users\Tenurian\Dropbox\Neumont\dotNET\Timesheet\Timesheet\TimesheetView\obj\Debug\TimesheetView.csproj.GenerateResource.Cache
-C:\Users\Domingos Fernandes\Desktop\Timesheet\github\Timesheet\Timesheet\TimesheetView\obj\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Users\Tenurian\Dropbox\Neumont\dotNET\Timesheet\Timesheet\TimesheetView\obj\Debug\TimesheetView.exe
+C:\Users\Tenurian\Dropbox\Neumont\dotNET\Timesheet\Timesheet\TimesheetView\obj\Debug\TimesheetView.pdb

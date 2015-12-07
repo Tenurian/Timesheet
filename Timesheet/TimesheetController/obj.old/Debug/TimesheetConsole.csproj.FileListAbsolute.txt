@@ -1,0 +1,17 @@
+<<<<<<< HEAD
+C:\Users\Domingos Fernandes\Desktop\Timesheet\github\Timesheet\Timesheet\TimesheetController\bin\Debug\TimesheetConsole.exe
+C:\Users\Domingos Fernandes\Desktop\Timesheet\github\Timesheet\Timesheet\TimesheetController\bin\Debug\TimesheetConsole.pdb
+C:\Users\Domingos Fernandes\Desktop\Timesheet\github\Timesheet\Timesheet\TimesheetController\bin\Debug\Timesheet.dll
+C:\Users\Domingos Fernandes\Desktop\Timesheet\github\Timesheet\Timesheet\TimesheetController\bin\Debug\Timesheet.pdb
+C:\Users\Domingos Fernandes\Desktop\Timesheet\github\Timesheet\Timesheet\TimesheetController\obj\Debug\TimesheetConsole.csprojResolveAssemblyReference.cache
+C:\Users\Domingos Fernandes\Desktop\Timesheet\github\Timesheet\Timesheet\TimesheetController\obj\Debug\TimesheetConsole.exe
+C:\Users\Domingos Fernandes\Desktop\Timesheet\github\Timesheet\Timesheet\TimesheetController\obj\Debug\TimesheetConsole.pdb
+=======
+C:\Users\Tenurian\Dropbox\Neumont\dotNET\Timesheet\Timesheet\TimesheetController\bin\Debug\TimesheetConsole.exe
+C:\Users\Tenurian\Dropbox\Neumont\dotNET\Timesheet\Timesheet\TimesheetController\bin\Debug\TimesheetConsole.pdb
+C:\Users\Tenurian\Dropbox\Neumont\dotNET\Timesheet\Timesheet\TimesheetController\bin\Debug\Timesheet.dll
+C:\Users\Tenurian\Dropbox\Neumont\dotNET\Timesheet\Timesheet\TimesheetController\bin\Debug\Timesheet.pdb
+C:\Users\Tenurian\Dropbox\Neumont\dotNET\Timesheet\Timesheet\TimesheetController\obj\Debug\TimesheetConsole.csprojResolveAssemblyReference.cache
+C:\Users\Tenurian\Dropbox\Neumont\dotNET\Timesheet\Timesheet\TimesheetController\obj\Debug\TimesheetConsole.exe
+C:\Users\Tenurian\Dropbox\Neumont\dotNET\Timesheet\Timesheet\TimesheetController\obj\Debug\TimesheetConsole.pdb
+>>>>>>> 53328fc48614cd1285c1310deb9d9155c39ddfbf

@@ -31,6 +31,5 @@ C:\Users\Tenurian\Code\Timesheet\Timesheet\Timesheet\obj\Debug\Timesheet.pdb
 C:\Users\Tenurian\Dropbox\Neumont\dotNET\Timesheet\Timesheet\Timesheet\bin\Debug\Timesheet.dll.config
 C:\Users\Tenurian\Dropbox\Neumont\dotNET\Timesheet\Timesheet\Timesheet\bin\Debug\Timesheet.dll
 C:\Users\Tenurian\Dropbox\Neumont\dotNET\Timesheet\Timesheet\Timesheet\bin\Debug\Timesheet.pdb
-C:\Users\Tenurian\Dropbox\Neumont\dotNET\Timesheet\Timesheet\Timesheet\obj\Debug\Timesheet.csprojResolveAssemblyReference.cache
 C:\Users\Tenurian\Dropbox\Neumont\dotNET\Timesheet\Timesheet\Timesheet\obj\Debug\Timesheet.dll
 C:\Users\Tenurian\Dropbox\Neumont\dotNET\Timesheet\Timesheet\Timesheet\obj\Debug\Timesheet.pdb

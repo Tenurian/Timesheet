@@ -143,7 +143,40 @@ namespace TimesheetView
                 }
             }
 
-            return hold;
+            return String.Format("Total Time worked: \t {0}", hold.ToString());
+
+            throw new NotImplementedException();
+        }
+
+        public object[] ConvertBack(object value, Type[] targetTypes, object parameter, CultureInfo culture)
+        {
+            throw new NotImplementedException();
+        }
+    }
+
+    public class OverTimeConverter : IMultiValueConverter
+    {
+        public object Convert(object[] values, Type targetType, object parameter, CultureInfo culture)
+        {
+            int holder, hold = 0;
+            for (int i = 0; i < values.Length; i++)
+            {
+                if (Int32.TryParse(values[i].ToString(), out holder))
+                {
+                    hold += holder;
+                }
+            }
+
+            if(hold > 80)
+            {
+                hold -= 80;
+            }
+            else
+            {
+                hold = 0;
+            }
+
+            return String.Format("OverTime worked: \t {0}", hold.ToString());
 
             throw new NotImplementedException();
         }
