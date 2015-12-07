@@ -130,4 +130,27 @@ namespace TimesheetView
             throw new NotImplementedException();
         }
     }
+
+    public class TotalTimeConverter : IMultiValueConverter
+    {
+        public object Convert(object[] values, Type targetType, object parameter, CultureInfo culture)
+        {
+            int holder, hold = 0;
+            for(int i = 0; i < values.Length; i++) {
+                if (Int32.TryParse(values[i].ToString(), out holder))
+                {
+                    hold += holder;
+                }
+            }
+
+            return hold;
+
+            throw new NotImplementedException();
+        }
+
+        public object[] ConvertBack(object value, Type[] targetTypes, object parameter, CultureInfo culture)
+        {
+            throw new NotImplementedException();
+        }
+    }
 }

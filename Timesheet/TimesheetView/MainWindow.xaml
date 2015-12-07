@@ -8,6 +8,7 @@
         Title="Timesheet" Height="510" Width="700">
     <Window.Resources>
         <local:ValueConverter x:Key="ValueConverter" />
+        <local:TotalTimeConverter x:Key="TotalTimeConverter" />
     </Window.Resources>
     <StackPanel x:Name="MyTimesheet">
         <DockPanel>
