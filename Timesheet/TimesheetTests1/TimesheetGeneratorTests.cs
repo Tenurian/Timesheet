@@ -14,8 +14,8 @@ namespace Timesheet.Tests
         [TestMethod()]
         public void GetTotalTest()
         {
-            TimesheetGenerator ts = new TimesheetGenerator(1,40);
-            int expected = ts.CalculateTotalTimeWorked(new[] {40});
+            TimesheetGenerator ts = new TimesheetGenerator(1, 40);
+            int expected = ts.CalculateTotalTimeWorked(new[] { 40 });
             int actual = ts.GetTotal();
             Assert.AreEqual(expected, actual);
         }
@@ -27,8 +27,8 @@ namespace Timesheet.Tests
             bool expected = false;
             bool actual1 = ts.ValidateInput(80);
             bool actual2 = ts.ValidateInput(-3);
-            Assert.AreEqual(expected,actual1);
-            Assert.AreEqual(expected,actual2);
+            Assert.AreEqual(expected, actual1);
+            Assert.AreEqual(expected, actual2);
         }
 
         [TestMethod()]
@@ -99,6 +99,24 @@ namespace Timesheet.Tests
             Assert.AreEqual(expected3_2, actual3_2);
             Assert.AreEqual(expected3_3, actual3_3);
             //Assert.Fail();
+        }
+
+        [TestMethod()]
+        public void ValidateInputTest1()
+        {
+            int userInput = 24;
+            TimesheetGenerator t = new TimesheetGenerator();
+       bool returned =  t.ValidateInput(userInput);
+            Assert.AreEqual(true, returned);
+        }
+
+        [TestMethod()]
+        public void ValidateInputTestWrong()
+        {
+            int userInput = 30;
+            TimesheetGenerator t = new TimesheetGenerator();
+            bool returned = t.ValidateInput(userInput);
+            Assert.AreEqual(false, returned);
         }
     }
 }

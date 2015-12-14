@@ -9,7 +9,6 @@ C:\Code\Timesheet\Timesheet\TimesheetTests1\obj\Debug\TimesheetTests1.pdb
 C:\Users\blazi\Documents\Neumont\DotNet\Timesheet\Timesheet\Timesheet\TimesheetTests1\bin\Debug\TimesheetTests1.dll
 C:\Users\blazi\Documents\Neumont\DotNet\Timesheet\Timesheet\Timesheet\TimesheetTests1\bin\Debug\TimesheetTests1.pdb
 C:\Users\blazi\Documents\Neumont\DotNet\Timesheet\Timesheet\Timesheet\TimesheetTests1\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll
-C:\Users\blazi\Documents\Neumont\DotNet\Timesheet\Timesheet\Timesheet\TimesheetTests1\bin\Debug\Timesheet.exe
 C:\Users\blazi\Documents\Neumont\DotNet\Timesheet\Timesheet\Timesheet\TimesheetTests1\bin\Debug\Timesheet.pdb
 C:\Users\blazi\Documents\Neumont\DotNet\Timesheet\Timesheet\Timesheet\TimesheetTests1\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.xml
 C:\Users\blazi\Documents\Neumont\DotNet\Timesheet\Timesheet\Timesheet\TimesheetTests1\obj\Debug\TimesheetTests1.csprojResolveAssemblyReference.cache
@@ -32,3 +31,4 @@ C:\Users\Tenurian\Dropbox\Neumont\dotNET\Timesheet\Timesheet\TimesheetTests1\bin
 C:\Users\Tenurian\Dropbox\Neumont\dotNET\Timesheet\Timesheet\TimesheetTests1\obj\Debug\TimesheetTests1.csprojResolveAssemblyReference.cache
 C:\Users\Tenurian\Dropbox\Neumont\dotNET\Timesheet\Timesheet\TimesheetTests1\obj\Debug\TimesheetTests1.dll
 C:\Users\Tenurian\Dropbox\Neumont\dotNET\Timesheet\Timesheet\TimesheetTests1\obj\Debug\TimesheetTests1.pdb
+C:\Users\blazi\Documents\Neumont\DotNet\Timesheet\Timesheet\Timesheet\TimesheetTests1\bin\Debug\Timesheet.dll
